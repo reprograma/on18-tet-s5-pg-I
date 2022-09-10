@@ -13,3 +13,23 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+// function repetidor(nome,repetir){
+//     const obterNome = nome;
+//     const repetirNome = repetir
+    
+//     for(let i=repetirNome; i<obterNome; i++){
+//         console.log(obterNome[i])
+//     }
+
+// }
+
+function repetidor(nome,repetir){
+ let repetirNome=nome
+ let repetidor=repetir
+
+ let soma= repetirNome.repeat(repetidor)
+ console.log(soma)
+}
+
+repetidor('ellen',5)

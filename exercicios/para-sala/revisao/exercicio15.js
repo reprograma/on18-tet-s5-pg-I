@@ -13,3 +13,8 @@ const tarefas = [{
 }, ];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+tarefas.forEach(valor=>{
+    let afazeresIndices=valor.afazeres[2]
+    console.log(afazeresIndices)
+})

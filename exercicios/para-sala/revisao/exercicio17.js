@@ -12,3 +12,20 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+
+
+
+// pessoas.forEach(cargo=>{
+//     if(cargo.area=='TI'){
+//        console.log(cargo ) 
+//     }
+    
+// })
+
+
+//Tem 2 formas de fazer no código 
+   const filtrando= pessoas.filter((funcao_cargo) => funcao_cargo.area=='TI')
+
+ console.log(filtrando)
+
