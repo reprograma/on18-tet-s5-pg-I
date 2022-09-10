@@ -12,3 +12,13 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+let funcaoDesejada = 0
+
+function filtrarFuncao(funcaoDesejada) {
+    const buscaPorFucao = colaboradores.filter((colaborador) => {colaborador.funcao == funcaoDesejada
+    return colaborador.funcao.includes(funcaoDesejada)})
+    console.log(buscaPorFucao)
+}
+filtrarFuncao('Desen')
+

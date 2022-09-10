@@ -1,6 +1,6 @@
-/*Armazene na váriavel nomeColaboradora o nome "Maria",
+/*Armazene na váriavel nomeColaboradora o nome "Thamiles",
  em seguida, utilize o console.log() para mostrar.*/
 
-const nomeColaboradora = "Maria";
+const nomeColaboradora = "Thamiles";
 
-console.log("Resultado do exercício: ", nomeColaboradora);
+console.log("Resultado do exercício: ", nomeColaboradora.toUpperCase());  
