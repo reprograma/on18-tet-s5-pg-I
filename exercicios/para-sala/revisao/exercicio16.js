@@ -21,3 +21,25 @@ const notasAlunas = [{
         ]
     }
 ]
+
+let somatorio=0
+let allAlunas=notasAlunas.map(alunas=> {
+    let nomeAluna=alunas.nome
+    let notaFinal=0
+
+    
+    for(let i=0; i<alunas.notas.length; i++){
+       notaFinal+=alunas.notas[i].nota*alunas.notas[i].peso/2
+
+
+    }
+    return console.log(nomeAluna,notaFinal)
+
+    
+}
+   
+)
+
+// let Elemento=frutas.map(fruta=> fruta[0].toUpperCase()+fruta.slice(1).toLocaleLowerCase()
+   
+// )

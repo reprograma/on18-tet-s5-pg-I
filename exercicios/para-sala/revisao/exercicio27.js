@@ -7,3 +7,12 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+let getUser=(id,nome)=>{
+  return {
+    id:id,
+    nome:nome
+  }
+}
+
+getUser(4,'Ellen Samanta')

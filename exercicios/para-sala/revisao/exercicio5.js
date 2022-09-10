@@ -3,3 +3,14 @@
     especie = cachorro
     raca = golden
 */
+
+let animal=[
+    mamifero=[{
+        'especie':'cachorro',
+         'porte':'grande',
+         'raca':'golden'
+    },
+]
+]
+
+console.log(animal)
