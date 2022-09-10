@@ -1,10 +1,10 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+<div align="center">
+  <img src="assets/reprograma-fundos-claros.png" alt="logotipo da reprograma na área central da página" width="500">
+</div>
 
 # Tema da Aula
 
-Turma Online X - Todas em Tech  | X-end | Semana X | 2022 | Professora X
+Turma Online on18 - Todas em Tech  | Back-end | Semana 5 | 2022 | Professora Jéssica Osko
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
@@ -15,57 +15,65 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+* [Tipos de Dados](#tema1)
+* [Tipos de dados compostos](#tema2)
+* [Operadores](#tema3)
+* [Estruturas Condicionas](#tema4)
+* [Estruturas de repetições](#tema5)
+* [Principais metódos de Array](#tema6)
+* [Funções](#tema7)
 
 ## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
+### Tipos de Dados
+1. [Primitivos x Não primitivos](#topico1)
+2. [String](#topico2)
+3. [Number](#topico3)
+4. [Boolean](#topico4)
+5. [Undefined](#topico5)
+6. [Null](#topico6)
+7. [Symbol](#topico7)
+8. [Objetos](#topico8)
+
+### Tipos de Dados Composos   
+1. [Objetos](#topico1)
+2. [Arrays](#topico2)
+3. [Operadores aritméticos](#topico11)
+4. [Operadores Lógicos](#topico12)
+5. [Operador Codicional (Ternário)](#topico13)
+
+### Operadores   
+1. [Operadores de Atribuição](#topico14)
+2. [Operadores de Comporação](#topico15)
+3. [Operadores aritméticos](#topico16)
+4. [Operadores Lógicos](#topico17)
+5. [Operador Codicional (Ternário)](#topico18)
    
-### Tema3
-1. [Tópico 4](#topico4)
+### Estruturas Condicionais
+1. [If](#topico19)
+2. [If/Else](#topico20)
+3. [If/Else if/Else](#topico21)
+4. [Switch...case](#topico22)
 
-### Tema1 
+### Principais metódos de Array
+1. [push](#topico23)
+2. [pop](#topico24)
+3. [shift](#topico25)
+4. [unishift](#topico26)
+5. [forEach](#topico27)
+6. [map](#topico28)
+7. [filter](#topico29)
+8. [reduce](#topico30)
+9. [find](#topico31)
 
-#### Topico1
+### Estruturas de Repetições
+1. [While](#topico23)
+2. [For](#topico24)
+3. [For in](#topico25)
+4. [For of](#topico26)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
-
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
-
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
-
-***
 ### Exercícios 
 * [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
 * [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
-
-### Material da aula 
 
 ### Links Úteis
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
