@@ -26,5 +26,5 @@ function retornaNota(valor){
         return console.log('Valor ínválido')
     }
 }
-
+//
 retornaNota(71)
