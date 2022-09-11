@@ -3,3 +3,10 @@
     especie = cachorro
     raca = golden
 */
+{ 
+    porte: "grande"
+    especie: "cachorro"
+    raca: "golden"
+
+
+}

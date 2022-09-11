@@ -10,3 +10,10 @@ let produtos = [
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+console.table(produtos.map((element) => {
+    let resultado = [
+        element.id, element.nome, element.tamanho, element.precoUnitario + 1.15
+    ]
+    return resultado
+}))
