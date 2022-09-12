@@ -13,3 +13,8 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+const obterNome = "Brizza";
+const repetirNome = 4
+
+console.log()

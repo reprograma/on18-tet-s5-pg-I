@@ -12,3 +12,10 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+const buscaProfissionaisTI = pessoas.filter (function(profissionaisTI){
+    return profissionaisTI.area == 'TI'
+    })
+    console.log(buscaProfissionaisTI)
+
+
