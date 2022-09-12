@@ -13,3 +13,11 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+const obterNome = 'Alane'
+const repetirNome = 7
+
+// obterNome.repeat(repetirNome);
+//let nomeReptido = (obterNome.repeat(repetirNome));
+//console.log(nomeReptido)
+

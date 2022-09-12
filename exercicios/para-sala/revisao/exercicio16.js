@@ -21,3 +21,15 @@ const notasAlunas = [{
         ]
     }
 ]
+
+// media = nota1 * 1,5 + nota2 * 2 / 3,5
+//let notaFinal = nota * peso / 3.5
+
+const novaNota = notasAlunas.map(function(aluna){
+    const notas = nota * peso
+    const mediaFinal = [aluna.nome , aluna.notas / 3.5]
+    return mediaFinal;
+})
+console.log(novaNota)
+
+function nota 

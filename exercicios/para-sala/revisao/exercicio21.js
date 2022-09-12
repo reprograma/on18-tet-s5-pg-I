@@ -13,3 +13,11 @@ Jordana
 Lilian
 28
 ...*/
+
+for (let i = 0; i < usuarios.length; i++){
+    console.log(nome[i])
+}
+
+
+
+
