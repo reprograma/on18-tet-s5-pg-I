@@ -1,3 +1,4 @@
+
 //Retonar uma nova array com o nome das alunas com a nota final
 const notasAlunas = [{
         nome: "Julia",
@@ -21,3 +22,4 @@ const notasAlunas = [{
         ]
     }
 ]
+let somatorio=0
