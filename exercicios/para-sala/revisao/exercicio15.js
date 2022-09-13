@@ -12,4 +12,11 @@ const tarefas = [{
     },
 }, ];
 
-/* Acesse a propriedade do objeto do terceiro item*/
+/* Acesse a propriedade do objeto do terceiro item"
+*/
+
+
+function imprimirTarefa(lista){
+    console.log(lista.reuniao)
+}
+imprimirTarefa.foreach(imprimirTarefa)

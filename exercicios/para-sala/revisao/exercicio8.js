@@ -4,3 +4,14 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"]
 /*Adicione na última posição o nome Beatriz.
 Em seguida, mostre no console.log
 */
+
+//listaNomes.push("Beatriz");
+//console.log(listaNomes);
+
+function adicionaUltimoNome(nome,lista) {
+    lista.push(nome);
+    console.log(lista);
+}
+
+
+adicionaUltimoNome("Beatriz", listaNomes);

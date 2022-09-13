@@ -12,3 +12,8 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+const buscaColaboradores = colaboradores.filter(function(c){
+    return c.funcao =="Desenvolvedora"
+
+});
+console.log(buscaColaboradores)

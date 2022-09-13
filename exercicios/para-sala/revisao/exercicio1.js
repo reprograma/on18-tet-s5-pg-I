@@ -4,3 +4,8 @@
 const nomeColaboradora = "Maria";
 
 console.log("Resultado do exercício: ", nomeColaboradora);
+
+function apresentarNome(nomeColaboradora){
+      console.log('Resultado do exercicio:{nomeColaboradora}');
+}
+apresentarNome('Maria');

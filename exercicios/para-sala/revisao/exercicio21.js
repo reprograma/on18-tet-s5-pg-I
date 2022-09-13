@@ -13,3 +13,12 @@ Jordana
 Lilian
 28
 ...*/
+
+function imprimirUsuarios(lista){
+    console.log(lista.nome)
+    console.log(lista.idade);
+}
+usuarios.forEach(imprimirUsuarios);
+
+
+

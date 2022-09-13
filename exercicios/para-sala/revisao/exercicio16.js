@@ -21,3 +21,11 @@ const notasAlunas = [{
         ]
     }
 ]
+
+// media = nota1 * 1,5 + nota2 * 2 / 3,5
+//let notaFinal = nota * peso / 3.5
+
+for(let i=0; i<notasAlunas.nota.length;i++){
+    let  notaFinal= notaFinal + notasAlunas.notas[i] * notasAlunas.peso
+}
+console.table(aluna.nome, notaFinal)
