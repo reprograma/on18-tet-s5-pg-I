@@ -7,3 +7,12 @@ Criar função compararValor(parametro1, parametro2)
 Inserir uma condição onde parametro1 é maior que parametro dois?
 Se a condição for verdadeira, retornar "O maior número entre 5 e 10 é 10"
 Se for falsa, retornar que a segundo parametro é maior que o primeiro. */
+
+function comparacao(numero1, numero2) {
+    if (numero1 > numero2) {
+        console.log(`O ${numero1} é maior que o ${numero2}`);
+    } else {
+        console.log(`O ${numero2} é maior que o numero ${numero1}`);
+    }
+}
+comparacao(66, 180);

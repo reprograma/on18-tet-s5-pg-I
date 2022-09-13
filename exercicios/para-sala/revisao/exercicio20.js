@@ -1,4 +1,4 @@
-/*REPETIR PARALAVRA
+/*REPETIR PALAVRA
 Dado duas variáveis:
 obterNome > vai armazenar um nome.
 repetirNome > vai armazenar números
@@ -13,3 +13,5 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+const nome = "Luciana\n";
+console.log(nome.repeat(4));

@@ -1,12 +1,72 @@
-/*O map() funciona retornando uma nova array após a aplicação de uma função em todos os elementos da array.
-Dado um array de objetos chamado produtos: */
+// /*O map() funciona retornando uma nova array após a aplicação de uma função em todos os elementos da array.
+// Dado um array de objetos chamado produtos: */
 
-let produtos = [
-    { id: 123, nome: 'Camiseta', cor: 'azul', tamanho: 'P', categoria: 'Vestuário', estoque: 10, disponivel: true, precoUnitario: 15 },
-    { id: 125, nome: 'Regata', cor: 'azul', tamanho: 'GG', categoria: 'Vestuário', estoque: 0, disponivel: false, precoUnitario: 20 },
-    { id: 456, nome: 'Calça', cor: 'preto', tamanho: 'GG', categoria: 'Vestuário', estoque: 1, disponivel: true, precoUnitario: 15 },
-    { id: 982, nome: 'Tênis', cor: 'amarelo', tamanho: '38', categoria: 'Esportes', estoque: 2, disponivel: true, precoUnitario: 125 },
+let produtos = [{
+        id: 123,
+        nome: "Camiseta",
+        cor: "azul",
+        tamanho: "P",
+        categoria: "Vestuário",
+        estoque: 10,
+        disponivel: true,
+        precoUnitario: 15,
+    },
+    {
+        id: 125,
+        nome: "Regata",
+        cor: "azul",
+        tamanho: "GG",
+        categoria: "Vestuário",
+        estoque: 0,
+        disponivel: false,
+        precoUnitario: 20,
+    },
+    {
+        id: 456,
+        nome: "Calça",
+        cor: "preto",
+        tamanho: "GG",
+        categoria: "Vestuário",
+        estoque: 1,
+        disponivel: true,
+        precoUnitario: 15,
+    },
+    {
+        id: 982,
+        nome: "Tênis",
+        cor: "amarelo",
+        tamanho: "38",
+        categoria: "Esportes",
+        estoque: 2,
+        disponivel: true,
+        precoUnitario: 125,
+    },
 ];
 
-/*Retorne uma nova array com o id do produto,
- nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+// /*Retorne uma nova array com o id do produto,
+//  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+const produtosNovoValor = produtos.map((produto) => {
+    const novoValor = [
+        produto.id,
+        produto.nome,
+        produto.tamanho,
+        produto.precoUnitario + 1.15, // resultado com somatório
+    ];
+    return novoValor;
+});
+console.table(produtosNovoValor);
+
+// function listaNovosValores(lista) {
+//     const produtosNovoValor = produtos.map((produto) => {
+//         const novoValor = [
+//             produto.id,
+//             produto.nome,
+//             produto.tamanho,
+//             produto.precoUnitario * 1.15, // resolução com *
+//         ];
+//         return novoValor;
+//     });
+//     console.table(produtosNovoValor);
+// }
+// listaNovosValores(produtos);

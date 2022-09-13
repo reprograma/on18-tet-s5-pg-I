@@ -7,3 +7,6 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+const getUser = () => ({ name: "Luciana", id: 40 });
+console.log(getUser());
