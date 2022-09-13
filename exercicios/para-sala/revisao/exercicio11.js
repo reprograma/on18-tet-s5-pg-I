@@ -19,6 +19,6 @@ const frutas = ["maçã", "banana", "Pêra", "Melancia", "pêsSSEgO", "jAcA"]
 function FrutasPrimeiraLetraMaiuscula(lista, primeiraLetra, restoDaPalavra) {
 
 let buscaFrutas = lista.map((cadaItemDaLista) => cadaItemDaLista[primeiraLetra].toUpperCase() + cadaItemDaLista.slice(restoDaPalavra).toLowerCase())
-    console.log(buscaFrutas);
+    console.table(buscaFrutas);
 }
 FrutasPrimeiraLetraMaiuscula(frutas, 0, 1)

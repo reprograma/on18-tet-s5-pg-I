@@ -31,7 +31,7 @@ notaFinal += aluna.notas[i].nota * aluna.notas[i].peso/2
         nome: aluna.nome,
         notaFinal: notaFinal
 }})
-console.log(notaFinalAlunas)
+console.table(notaFinalAlunas)
 
 
 

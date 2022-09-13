@@ -15,6 +15,6 @@ Em seguida, mostre no console.log()*/
 const professoras = ["Melissa", "Jéssica", "Bruna", "Emanuelle"]
 function addPrimeiraPosicaoLista(item, lista){
 lista.unshift(item)
-console.log(lista)
+console.table(lista)
 }
 addPrimeiraPosicaoLista("Ana", professoras)

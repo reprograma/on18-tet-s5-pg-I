@@ -13,8 +13,8 @@ Desta forma:*/
 // Segunda resolução:
 
 const pokemon = ["Pikachu", "Bulbassauro", "Charizard", "Squirtle", "Toguepi", "Meowth"];
-function pokemonJunto(lista){
+function juntarElementosLista(lista){
     console.log(lista.join("-"))
     
 }
-pokemonJunto(pokemon)
+juntarElementosLista(pokemon)

@@ -15,6 +15,6 @@ Em seguida, mostre no console.log*/
 const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela", "Beatriz"]
 function retiraUltimoNome(lista) {
     lista.pop();
-    console.log(lista);
+    console.table(lista);
 }
 retiraUltimoNome(listaNomes)

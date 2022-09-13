@@ -18,7 +18,7 @@ const outraLista = ["RuPaul", "Bob The Drag Queen", "Jinkx Monsoon"]
 
 function adicionaUltimoNome(nome, lista) {
     lista.push(nome);
-    console.log(lista);
+    console.table(lista);
 }
 adicionaUltimoNome("Beatriz", listaNomes);
 adicionaUltimoNome("Nathielly Charles", outraLista)

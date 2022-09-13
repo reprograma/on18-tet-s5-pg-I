@@ -31,3 +31,4 @@ function mostrarLetraDoNome(nome,i) {
     console.log(nome[i])
 }
 mostrarLetraDoNome("Brizza",3)
+mostrarLetraDoNome("Alane",0)

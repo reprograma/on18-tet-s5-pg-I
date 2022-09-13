@@ -14,7 +14,16 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"*/
 
-const obterNome = "Brizza";
-const repetirNome = 4
+// Caractere de quebra de linha!
 
-console.log()
+// Primeira resolução:
+
+const nome = "Brizza\r\n";
+console.log(nome.repeat(4));
+
+// Segunda resolução:
+
+function repetir(nome, quantidade){  
+   console.log(nome.repeat(quantidade))   
+}
+repetir("Brizza\n", 4)

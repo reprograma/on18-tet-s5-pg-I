@@ -14,4 +14,23 @@ const tarefas = [{
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
-console.log(tarefas[0].reuniao)
+// Primeira resolução:
+
+// console.log(tarefas[0].reuniao)
+
+// Segunda resolução:
+
+// function acessarTerceiroObjeto (lista){
+//     lista.forEach(tarefas=>{
+//  let afazeresIndices = tarefas.reuniao
+//  console.log(afazeresIndices)})
+//  }
+
+//  acessarTerceiroObjeto(tarefas)
+
+//  Terceira resolução:
+
+function imprimirTarefa(lista) {
+    console.log(lista.reuniao);
+}
+tarefas.forEach(imprimirTarefa);

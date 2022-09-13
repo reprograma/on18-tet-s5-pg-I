@@ -4,7 +4,7 @@ const usuarios = [
     { nome: "Jordana", idade: 18 },
     { nome: "Lilian", idade: 28 },
     { nome: "Janaina", idade: 19 }
-];
+]
 
 /*Imprima todos nome e idade da variável usuários.
 A saída deverá ser:
@@ -14,4 +14,8 @@ Lilian
 28
 ...*/
 
-console.log(usuarios.toString())
+function imprimirUsuarios(lista) {
+    console.log(lista.nome)
+    console.log(lista.idade);
+}
+usuarios.forEach(imprimirUsuarios);
