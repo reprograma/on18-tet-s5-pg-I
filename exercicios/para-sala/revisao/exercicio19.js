@@ -2,5 +2,13 @@
 
 let nomesAlunas = ['Grazielle', 'Alane','Luciana', 'Gabriela','Pricila', 'Leticia', 'Briza']
 
-nomesAlunas.sort();
-console.log(nomesAlunas)
+//nomesAlunas.sort();
+//console.log(nomesAlunas)
+
+    function nomePorOrdemAlfabetica(lista){
+        
+        lista.sort()
+        console.log(lista)
+    }
+    nomePorOrdemAlfabetica(nomesAlunas)
+    

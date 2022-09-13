@@ -14,3 +14,5 @@ function retornarFrutasComPrimeiraLetraMaiuscula(lista, indice0, indice1) {
     console.log(buscaFrutas);
 }
 retornarFrutasComPrimeiraLetraMaiuscula(frutas, 0, 1);
+
+

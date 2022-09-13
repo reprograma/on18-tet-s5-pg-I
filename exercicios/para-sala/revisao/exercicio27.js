@@ -7,3 +7,8 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+let getUser = (id, nome) =>{
+  console.log(id,nome)
+};
+getUser("50","Alane",);

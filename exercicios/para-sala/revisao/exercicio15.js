@@ -15,8 +15,8 @@ const tarefas = [{
 /* Acesse a propriedade do objeto do terceiro item"
 */
 
-const propriedadeTerceiroItem = tarefas.find(function(propriedade) => {
-    return propriedade.reuniao
-});
-console.log(propriedadeTerceiroItem);
 
+function imprimirTarefa(lista){
+    console.log(lista.reuniao)
+}
+imprimirTarefa.foreach(imprimirTarefa)

@@ -12,8 +12,18 @@ let produtos = [
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
 
  const produtosNovoValor = produtos.map(produto => {
-const novoValor = [produto.id, produto.nome, produto.tamanho, produto.precoUnitario *1.15 ]
+const novoValor = [produto.id, produto.nome, produto.tamanho, produto.precoUnitario + 1.15 ]
 return novoValor;
  });
  console.log(produtosNovoValor)
+
+function novoValores(lista){
+    const produtosNovoValor = lista.map(produto => {
+        const novoValor = [produto.id, produto.nome, produto.tamanho, produto.precoUnitario + 1.15 ]
+        return novoValor;
+         });
+console.log(produtosNovoValor)
+}
+novoValores(produtos)
+
  

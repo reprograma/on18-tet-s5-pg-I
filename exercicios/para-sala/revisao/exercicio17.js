@@ -17,3 +17,9 @@ const profissionaisTI = pessoas.filter(function(ti){
     return ti.area == "TI";
 });
 console.log(profissionaisTI)
+
+function profissionaisTI(lista,area){
+    let encontarTI = lista.filter((lista)  => lista.area == area)
+    console.log(encontarTI)
+}
+profissionaisTI(pessoas, "TI")

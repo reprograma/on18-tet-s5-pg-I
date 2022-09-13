@@ -9,6 +9,6 @@ let num2 = 3;
 
 
 function soma(nota1, nota2){
-   
-
+   console.log(nota1 + nota2)
 }
+soma(2,3)
