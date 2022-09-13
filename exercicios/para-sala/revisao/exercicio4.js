@@ -6,8 +6,8 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
 
-function mostrarLetraDoNome(nome, i) {
-    console.log(nome[i]);
+function mostrarLetraDoNome(nome, indice) {
+    console.log(nome[indice]);
 }
 
 mostrarLetraDoNome('Brizza', 0);

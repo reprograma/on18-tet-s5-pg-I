@@ -13,3 +13,8 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+function repetir(nome, quantidade) {
+    console.log(nome.repeat(quantidade));
+}
+repetir("Alessandra\n", 4);

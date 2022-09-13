@@ -7,8 +7,15 @@ const pessoas = [
     { nome: "Monica", area: "medicina", profissao: "cardiologista" },
 ];
 
-// expectativa: 
+// expectativa:
 // const profissionaisTI = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+function retornoPorCategoriaProfissional(lista, area) {
+    let retornoProfissional = lista.filter((lista) => lista.area == area)
+    console.table(retornoProfissional);
+}
+
+retornoPorCategoriaProfissional(pessoas, "TI")
