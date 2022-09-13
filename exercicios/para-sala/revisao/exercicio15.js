@@ -13,3 +13,15 @@ const tarefas = [{
 }, ];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+
+// console.log(this.afazeres)
+// tarefas.forEach(valor=>{
+//     let afazeresIndices=valor.afazeres[2]
+//     console.log(afazeresIndices)})
+
+function imprimirTarefa(lista){
+    console.log(lista.reuniao);
+
+}
+tarefas.forEach(imprimirTarefa)

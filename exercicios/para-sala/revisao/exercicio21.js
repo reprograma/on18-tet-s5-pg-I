@@ -13,3 +13,20 @@ Jordana
 Lilian
 28
 ...*/
+// console.log(usuarios)
+
+function imprimirNome(mostrar){
+    for(let i=0; i<usuarios.length; i++){
+        let nome=usuarios[i].nome
+        let idade=usuarios[i].idade
+        console.log(nome )
+        console.log(idade)
+}
+}
+imprimirNome(usuarios)
+
+function imprimirUsuarios(lista){
+    console.log(lista.nome)
+    console.log(lista.idade);
+}
+usuarios.forEach(imprimirUsuarios)

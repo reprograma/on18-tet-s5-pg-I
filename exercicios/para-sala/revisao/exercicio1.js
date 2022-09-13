@@ -3,4 +3,9 @@
 
 const nomeColaboradora = "Maria";
 
-console.log("Resultado do exercício: ", nomeColaboradora);
+
+function mostrarNomeColaborador(nome){
+    mostrarNomeColaborador(nome)
+    console.log("Nome da colaboradora é: ", nome);
+}
+mostrarNomeColaborador("Maria")

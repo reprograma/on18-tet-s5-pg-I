@@ -13,3 +13,19 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+// let repetirNome = 4*
+// console.log(nome.repeat(1))
+// console.log(nome.repeat(1))
+// console.log(nome.repeat(1))
+// console.log(nome.repeat(1))
+
+
+
+function repetir(nome, quantidade){
+  
+    console.log(nome.repeat(quantidade))
+    
+}
+repetir("Pricila\n", 4)
+

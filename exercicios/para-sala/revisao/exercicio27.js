@@ -7,3 +7,11 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+ const getUser = () => ({name: "Pricila", id: 30});
+   
+  
+ console.log( getUser())
+
+
+  // })

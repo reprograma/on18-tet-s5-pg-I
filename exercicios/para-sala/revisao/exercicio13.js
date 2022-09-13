@@ -12,3 +12,20 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+// const profissao =  colaboradores.filter (function(colaboradoresDesenvolvedores){
+//     return colaboradoresDesenvolvedores.funcao == 'Desenvolvedora'
+
+// })
+    
+
+  
+  
+// console.log(profissao)
+
+function mensagemAosColaboradoresDevs(lista, profissao) {
+    let encontraColaborador = lista.filter((lista) => lista.funcao == profissao)
+    console.table(encontraColaborador);
+}
+
+mensagemAosColaboradoresDevs(colaboradores, "Desenvolvedora")
