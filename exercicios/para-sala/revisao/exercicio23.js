@@ -24,3 +24,11 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+function exibirDados (array){
+    for (const index in array){
+        console.log(array[index].titulo)
+        console.log(array[index].quemEscreveu)
+        console.log(array[index].link)
+        console.log("-----------")
+    }}
+exibirDados(livros)

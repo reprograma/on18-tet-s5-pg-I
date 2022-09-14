@@ -11,3 +11,7 @@ const endereco = {
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+function retornarDados (nome,sobrenome){
+    console.log(`${nome} ${sobrenome} mora em ${endereco.cidade} / ${endereco.uf}, no bairro ${endereco.bairro}, na rua ${endereco.rua} com nº${endereco.numero}.`)
+}
+retornarDados("Maria","Silva")

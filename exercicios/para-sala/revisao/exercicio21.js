@@ -13,3 +13,8 @@ Jordana
 Lilian
 28
 ...*/
+function exibirUsuarios (array){
+    console.log(array.nome)
+    console.log(array.idade)
+}
+const UsuariosOrg = usuarios.forEach(exibirUsuarios)

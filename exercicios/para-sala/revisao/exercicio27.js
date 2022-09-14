@@ -7,3 +7,5 @@ Arrow Function */
     nome: nome
   }
 }*/
+userId = (id,nome) => {console.log(`id: ${id}, nome: ${nome}`)}
+userId(175,"Helena")

@@ -21,3 +21,13 @@ const notasAlunas = [{
         ]
     }
 ]
+function calcNotaFinal (aluna) {
+    console.log(aluna.nome)
+    let notaFinalMat = aluna.notas[0].nota * aluna.notas[0].peso
+    console.log(`Nota Final (Matemática): ${notaFinalMat}`)
+    let notaFinalPort = aluna.notas[1].nota * aluna.notas[1].peso
+    console.log(`Nota Final (Português): ${notaFinalPort}`)
+    console.log("=======================")
+}
+//calcNotaFinal(notasAlunas[2])
+let notasFinal = notasAlunas.forEach(calcNotaFinal)
