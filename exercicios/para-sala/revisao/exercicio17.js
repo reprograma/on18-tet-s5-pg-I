@@ -7,8 +7,14 @@ const pessoas = [
     { nome: "Monica", area: "medicina", profissao: "cardiologista" },
 ];
 
-// expectativa: 
+// expectativa:
 // const profissionaisTI = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+function profissionaisTi(lista, area) {
+    let encontraTi = lista.filter((lista) => lista.area == area);
+    console.table(encontraTi);
+}
+profissionaisTi(pessoas, "TI");
