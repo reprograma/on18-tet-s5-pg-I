@@ -5,3 +5,18 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  para encontrar o primeiro caractere do nome armazenado.
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
+
+
+ /*let nome = "Leticia";
+
+ console.log(nome[0])
+
+ let nome = "Letícia";*/
+
+ let nome = "Letícia";
+
+function mostrarLetraDoNome(i) {
+    console.log(nome[i]);
+}
+
+mostrarLetraDoNome(0);

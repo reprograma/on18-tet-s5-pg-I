@@ -11,3 +11,17 @@ const endereco = {
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+
+function somaNumero(numero1, numero2) {
+    console.log(numero1 + numero2)}
+somaNumero(5, 6)
+
+function retornarEndereço(nome, sobrenome, cidade, uf, bairro, rua, numero) {
+    const endereco = {
+        rua: rua,
+        numero: numero,
+        bairro: bairro,
+        cidade: cidade,
+        uf: uf};
+    console.log(`A aluna ${nome} ${sobrenome} mora em ${cidade}/${uf}, no bairro ${bairro}, na ${rua} com nº ${numero}.`)}
+retornarEndereço("Gabriela", "Pacheco", "São Paulo", "SP", "Centro", "Rua dos Pinheiros", "1293")

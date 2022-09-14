@@ -7,3 +7,13 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+let getUser = (id, nome) => {
+  console.log(id, nome);};
+getUser("39\n", "Gabriela",);
+
+/*2ª resolução
+const getUser = () => ({ name: "Jéss", id: 39 });
+console.log(getUser())*/
+
+
