@@ -10,5 +10,20 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Micaela', ultimoNome: 'Herman', funcao: 'Lead Instructor' },
     { PrimeiroNome: 'Robert', ultimoNome: 'Santos', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
-    { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
-];
+    { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' },
+
+           
+]
+
+function mensagemAosColaboradoresDevs(lista, profissao) {
+
+    let encontraColaborador = lista.filter((lista) => lista.funcao == profissao)
+
+    console.table(encontraColaborador);
+
+}
+
+
+
+mensagemAosColaboradoresDevs(colaboradores, "Desenvolvedora")
+
