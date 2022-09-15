@@ -13,3 +13,4 @@ Jordana
 Lilian
 28
 ...*/
+usuarios.forEach((usuario)=>console.log(Object.values(usuario)))

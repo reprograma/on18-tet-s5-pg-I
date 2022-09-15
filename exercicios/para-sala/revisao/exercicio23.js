@@ -24,3 +24,7 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+
+for (let livro in livros){
+    console.log(Object.values(livros[livro]))
+}

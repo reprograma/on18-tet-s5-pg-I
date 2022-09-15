@@ -3,3 +3,9 @@
     especie = cachorro
     raca = golden
 */
+let animal = {
+    porte: "grande",
+    especie: "cachorro",
+    raca: "golden"
+}
+console.table(animal)

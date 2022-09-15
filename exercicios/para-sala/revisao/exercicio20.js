@@ -13,3 +13,10 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+function Repeticao(nome,repetirNome){
+    for(i=0;i<=repetirNome-1;i++){
+        console.log(nome)
+    }
+}
+Repeticao("Julia",5)
