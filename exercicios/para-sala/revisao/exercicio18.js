@@ -4,3 +4,5 @@
 // output: um único valor
 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let soma = num.reduce((acumulador, valorAtual) => acumulador + valorAtual)
+console.log(soma)

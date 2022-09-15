@@ -13,3 +13,8 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+let obterNome = "Alessandra "
+let repetirNome = 4
+let repetir = obterNome.repeat(repetirNome)
+console.log(repetir)
+

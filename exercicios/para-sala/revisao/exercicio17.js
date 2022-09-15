@@ -12,3 +12,6 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+let profissionaisTI = pessoas.filter((pessoas) => pessoas.area == 'TI')
+console.log(profissionaisTI)
