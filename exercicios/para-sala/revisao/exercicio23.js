@@ -24,3 +24,7 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+
+for (let pesquisar in livros ){
+    console.log(livros[pesquisar]);
+}

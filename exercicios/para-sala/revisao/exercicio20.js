@@ -1,8 +1,8 @@
-/*REPETIR PARALAVRA
+/*REPETIR PALAVRA
 Dado duas variáveis:
 obterNome > vai armazenar um nome.
 repetirNome > vai armazenar números
-Faça um programam que repita a palavra
+Faça um programa que repita a palavra
 De acordo com a quantidade de vezes que você
 inserir para que essa palavra repita.
 exemplo:
@@ -13,3 +13,10 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+let obterNome = "Adriana"
+let repetirNome = 5
+
+for (let i = 0; i < repetirNome; i++){
+    console.log(obterNome);
+}
