@@ -12,3 +12,14 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+function acharColaboradores(entrada) {
+    let filtarPorElemento = colaboradores.filter((colaborador) => colaborador.funcao.includes(entrada))
+    console.log (filtarPorElemento)
+}
+
+acharColaboradores('Desenvolvedora')
+
+console.log('------------------------------------------------------------------------------------------------')
+let filtarPorElemento2 = colaboradores.filter((colaborador) => colaborador.funcao == 'Desenvolvedora')
+console.log(filtarPorElemento2)
