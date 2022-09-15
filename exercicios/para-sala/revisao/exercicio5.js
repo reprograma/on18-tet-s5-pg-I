@@ -9,3 +9,4 @@ const animal = {
     especie: "cachorro",
     raca: "golden"
 }
+console.log(animal)
