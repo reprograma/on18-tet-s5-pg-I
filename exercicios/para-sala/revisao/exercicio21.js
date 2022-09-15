@@ -13,3 +13,9 @@ Jordana
 Lilian
 28
 ...*/
+console.log(usuarios[0].nome)
+console.log(usuarios[0].idade)
+console.log(usuarios[1].nome)
+console.log(usuarios[1].idade)
+console.log(usuarios[2].nome)
+console.log(usuarios[2].idade)

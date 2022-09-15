@@ -24,3 +24,9 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+
+
+for (let item in livros){
+    console.log([1].link)
+ 
+}

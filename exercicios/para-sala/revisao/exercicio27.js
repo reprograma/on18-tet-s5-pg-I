@@ -7,3 +7,5 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+(id,nome) => console.log({id, nome})

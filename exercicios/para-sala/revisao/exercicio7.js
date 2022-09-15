@@ -3,3 +3,8 @@ Ovos, feijão, macarrão, abobora, cenoura.
 Em seguida, no console.log(),
 mostre a quantidade de itens que contém
 na lista criada.  */
+
+let listaDeCompras = ["ovos", "feijão", "macarrão", "abobora", "cenoura", "banana", "maçã"]
+
+console.log(listaDeCompras.length)
+
