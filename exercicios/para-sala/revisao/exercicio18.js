@@ -4,3 +4,7 @@
 // output: um único valor
 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let resultadoReduce = num.reduce((acumulador, numero) => acumulador + numero)
+
+console.log(resultadoReduce)

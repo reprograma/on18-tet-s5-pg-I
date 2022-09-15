@@ -12,3 +12,10 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+const colaboradoresTI = colaboradores.filter(colaboradora => {
+    const desenvolvedoras = colaboradora.funcao === 'Desenvolvedora';
+    return desenvolvedoras
+})
+
+console.log(colaboradoresTI)

@@ -3,3 +3,8 @@
     especie = cachorro
     raca = golden
 */
+
+const animal = {porte: 'grande', especie: 'cachorro', raca: 'golden'}
+
+console.log(animal.porte)
+

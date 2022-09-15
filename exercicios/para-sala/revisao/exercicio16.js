@@ -21,3 +21,6 @@ const notasAlunas = [{
         ]
     }
 ]
+
+let notaFinal = (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+

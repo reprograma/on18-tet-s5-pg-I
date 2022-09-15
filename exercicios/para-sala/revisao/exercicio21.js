@@ -13,3 +13,5 @@ Jordana
 Lilian
 28
 ...*/
+
+console.log(usuarios.[0][1])

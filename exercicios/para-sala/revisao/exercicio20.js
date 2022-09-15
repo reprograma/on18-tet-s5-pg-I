@@ -13,3 +13,13 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+let obterNome = 'Thaysa'
+let repetirNome = 2
+
+function imprimirNome(nome, vezes){
+    return console.log(nome * vezes)
+}
+
+imprimirNome(obterNome,repetirNome)
+
