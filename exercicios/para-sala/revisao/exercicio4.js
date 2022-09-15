@@ -5,3 +5,12 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  para encontrar o primeiro caractere do nome armazenado.
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
+
+
+// [é uma maneira de obter um caractere em um específico index dentro de uma string]
+
+let aluna = "Letícia"
+
+console.log(aluna[0])
+
+
