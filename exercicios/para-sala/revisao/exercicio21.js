@@ -13,3 +13,7 @@ Jordana
 Lilian
 28
 ...*/
+usuarios.forEach( u => {
+    console.log(u.nome);
+    console.log(u.idade);
+} );
