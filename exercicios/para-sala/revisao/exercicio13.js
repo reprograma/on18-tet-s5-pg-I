@@ -12,3 +12,6 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+let mensagemDevs = colaboradores.filter((item) => item.funcao.includes('Desenvolvedora'))
+console.log(mensagemDevs, "Convidamos vocês para o novo treinamento de DevOps!")

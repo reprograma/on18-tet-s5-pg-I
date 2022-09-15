@@ -11,3 +11,10 @@ const endereco = {
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+
+
+function colocarEndereco(nome, sobrenome, endereco) {
+        console.log(`A ${nome} ${sobrenome} mora em ${endereco.cidade} / ${endereco.uf}, no bairro do ${endereco.bairro}, na rua "${endereco.rua}" com n° ${endereco.numero}. `)
+    }
+colocarEndereco("Rachel", "Lizandra", endereco)
+

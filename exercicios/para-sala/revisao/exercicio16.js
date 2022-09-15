@@ -21,3 +21,18 @@ const notasAlunas = [{
         ]
     }
 ]
+
+function calcularFinal(notas) {
+    let notasComPeso = notas.map((nota) => nota.nota * nota.peso) 
+    let notaSoma = notasComPeso.reduce((acumulador, atual) => acumulador + atual)
+    let notaFinal = notaSoma / notasComPeso.length
+    return notaFinal
+}
+
+
+const notasFinais = notasAlunas.map((aluna) => ({
+  nome: aluna.nome,
+  nota: calcularFinal(aluna.notas),
+}));
+
+console.log(notasFinais)

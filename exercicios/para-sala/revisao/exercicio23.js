@@ -24,3 +24,14 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+
+// const procura = Object.values(livros[1]) 
+//     console.log(procura)
+
+
+for (let livro in livros) {
+    console.log('-------------------')
+    for (let topico in livros[livro]) {
+      console.log(`${livros[livro][topico]}`);
+    }
+}
