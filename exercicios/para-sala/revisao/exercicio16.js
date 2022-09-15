@@ -21,3 +21,12 @@ const notasAlunas = [{
         ]
     }
 ]
+
+const alunasENotas = notasAlunas.map( aluna => {
+    return {
+        nome: aluna.nome,
+        notas: aluna.notas.map( materia => materia.nota )
+    };
+} );
+
+console.log(alunasENotas);
