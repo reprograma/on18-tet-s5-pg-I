@@ -12,3 +12,22 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+
+ let desenvolvedoras = []
+ let filtro = colaboradores.filter((item) => item.funcao == 'Desenvolvedora')
+ console.log(filtro)
+
+
+function filtrar(lista){
+    for (item of lista){
+        if (item.funcao == "Desenvolvedora"){
+            desenvolvedoras.push(item.PrimeiroNome)
+            console.log(`Enviar mensagem para ${item.PrimeiroNome}`)
+        }else{
+            console.log(`Não enviar mensagem para ${item.PrimeiroNome}`)
+        }
+      }
+    }
+
+ filtrar(colaboradores)
