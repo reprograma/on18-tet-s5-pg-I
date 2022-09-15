@@ -12,3 +12,6 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+profissionaisTI = pessoas.filter((pessoa)=>pessoa.area =="TI");
+console.log(profissionaisTI);

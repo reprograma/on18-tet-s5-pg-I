@@ -7,3 +7,4 @@ Arrow Function */
     nome: nome
   }
 }*/
+GetUser = (id,nome)=>{return{id: id, nome:nome}}

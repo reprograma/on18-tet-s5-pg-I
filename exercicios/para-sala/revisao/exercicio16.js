@@ -1,4 +1,5 @@
-//Retonar uma nova array com o nome das alunas com a nota final
+Retonar uma nova array com o nome das alunas com a nota final
+
 const notasAlunas = [{
         nome: "Julia",
         notas: [
