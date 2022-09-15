@@ -8,5 +8,16 @@ let produtos = [
     { id: 982, nome: 'Tênis', cor: 'amarelo', tamanho: '38', categoria: 'Esportes', estoque: 2, disponivel: true, precoUnitario: 125 },
 ];
 
-/*Retorne uma nova array com o id do produto,
- nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+/*Retorne uma nova array com o id do produto, nome, tamanho e preço unitário 
+que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+let produtosComAcrescimo = produtos.map(function(item){
+    return{
+        idDoProduto: item.id,
+        nomeDoProduto: item.nome,
+        tamanhoDoProduto: item.tamanho,
+        precoDoProduto: item.precoUnitario * 1.15
+    }
+})
+
+console.table(produtosComAcrescimo);

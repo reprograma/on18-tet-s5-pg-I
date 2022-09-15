@@ -1,5 +1,4 @@
-/* Reescreva a função abaixo utilizando 
-Arrow Function */
+/* Reescreva a função abaixo utilizando Arrow Function */
 
 /*function getUser(id, nome) {
   return {
@@ -7,3 +6,6 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+let getUser = id, nome
+

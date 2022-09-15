@@ -1,5 +1,6 @@
 //Retonar uma nova array com o nome das alunas com a nota final
-const notasAlunas = [{
+const notasAlunas = [
+    {
         nome: "Julia",
         notas: [
             { materia: "matemática", nota: 7, peso: 1.5 },
@@ -21,3 +22,16 @@ const notasAlunas = [{
         ]
     }
 ]
+
+const nomesAlunas = notasAlunas.map(function(item){
+    return{
+        nomeAluna : item.nome,
+        notaAluna : item.notas.map(function(valor) {
+            return{
+                nota : valor.peso[0]
+            }
+        })
+    }
+})
+
+console.log(nomesAlunas);
