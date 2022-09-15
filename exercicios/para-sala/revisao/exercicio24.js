@@ -7,7 +7,14 @@ const endereco = {
     uf: "SP"
 };
 
+const dadosPessoal = {
+    nome: "Natália",
+    sobrenome: "Salles"
+};
+
 /*Retorne o seguinte conteúdo:*
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+
+console.log(`A ${dadosPessoal.nome} ${dadosPessoal.sobrenome} mora em ${endereco.cidade}/${endereco.uf}, no bairro ${endereco.bairro}, na ${endereco.rua} com nº 1293.`)
