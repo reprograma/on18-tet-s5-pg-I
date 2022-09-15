@@ -12,3 +12,7 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+let colaboradoresFiltrado = colaboradores.filter(cargo => cargo.funcao === "Desenvolvedora")
+console.table(colaboradoresFiltrado);
+

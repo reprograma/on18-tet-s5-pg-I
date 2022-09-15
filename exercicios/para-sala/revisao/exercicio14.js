@@ -10,3 +10,15 @@ let produtos = [
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+ let produtosComAcrescimo = produtos.map(function(item){
+    return{
+        idDoProduto: item.id,
+        nomeDoProduto: item.nome,
+        tamanhoDoProduto: item.tamanho,
+        precoDoProduto: item.precoUnitario * 1.15
+    }
+})
+
+
+console.table(produtosComAcrescimo);
