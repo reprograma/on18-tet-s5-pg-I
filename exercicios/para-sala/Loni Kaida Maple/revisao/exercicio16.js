@@ -21,3 +21,16 @@ const notasAlunas = [{
         ]
     }
 ]
+
+
+let alunas = notasAlunas.map(aluna => {
+    return{
+        nome: aluna.nome,
+        notaFinal: (aluna.notas[0].nota * aluna.notas[0].peso)+(aluna.notas[1].nota * aluna.notas[1].peso),
+    }
+}
+);
+
+console.table(alunas);
+
+///nf=nn*np

@@ -12,3 +12,9 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+const filterBy = colaboradores.filter((colaborador) => colaborador.funcao=="Desenvolvedora");
+for(a of filterBy){
+    console.log("%c Colaboradores: "+a.PrimeiroNome, 'color: #f89ee6');
+}
+

@@ -13,3 +13,4 @@ const tarefas = [{
 }, ];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+console.log("%c place holder: "+tarefas[0].reuniao.faculdade, 'color: #f89ee6');

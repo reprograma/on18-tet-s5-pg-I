@@ -10,3 +10,19 @@ let produtos = [
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+ //const nProducts = produtos.map(precoUnitario => (precoUnitario=precoUnitario+1.15));
+
+ // cria uma nova array com as prorpiedades que selecionou//
+ let newProducts = produtos.map(produto => {
+    return{
+        id: produto.id,
+        nome: produto.nome,
+        tamanho: produto.tamanho,
+        precoUnitario: produto.precoUnitario += 1.15
+    }
+    
+}
+);
+
+console.table(newProducts);

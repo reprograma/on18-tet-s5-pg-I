@@ -12,3 +12,21 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+//let profissionaisTI = pessoas.map(profissionais => profissionais.area=="TI");
+
+let profissionaisTI = pessoas.map(produto => {
+    return{
+        nome: produto.nome,
+        area: produto.area,
+        profissao: produto.profissao,
+    }
+    
+});
+
+for(b of profissionaisTI){
+    if(pessoas.area=="TI")
+        console.log(pessoas.nome);
+}
+
+//console.log(profissionaisTI)
