@@ -3,4 +3,4 @@
 
 const nomeColaboradora = "Maria";
 
-console.log("Resultado do exercício: ", nomeColaboradora);
+console.log("O nome da coloboradora é:", nomeColaboradora);

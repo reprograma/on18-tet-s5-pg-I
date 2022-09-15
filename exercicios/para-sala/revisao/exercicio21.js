@@ -13,3 +13,10 @@ Jordana
 Lilian
 28
 ...*/
+
+for(let itens in usuarios){
+    console.log(Object.values(usuarios[itens]))
+}
+
+
+

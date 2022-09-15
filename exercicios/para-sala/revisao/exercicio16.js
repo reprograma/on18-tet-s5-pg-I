@@ -21,3 +21,5 @@ const notasAlunas = [{
         ]
     }
 ]
+
+console.log(notasAlunas[1].notas);/
