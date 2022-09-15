@@ -13,3 +13,5 @@ const tarefas = [{
 }, ];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+console.log(tarefas[0].reuniao);

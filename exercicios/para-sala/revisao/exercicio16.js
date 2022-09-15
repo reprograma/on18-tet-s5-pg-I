@@ -21,3 +21,17 @@ const notasAlunas = [{
         ]
     }
 ]
+
+const nomesAlunas = notasAlunas.map(function(item){
+    return{
+        nomeAluna : item.nome,
+        notaAluna : item.notas.map(function(valor) {
+            return{
+                nota : valor.peso[0]
+            }
+        })
+    }
+})
+
+
+console.log(nomesAlunas);
