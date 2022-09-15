@@ -13,3 +13,10 @@ Jordana
 Lilian
 28
 ...*/
+
+
+const imprimirNomes = usuarios.forEach((usuario) => {
+    for(let lista in usuario){
+        console.log(`${usuario[lista]}`)
+    }
+})

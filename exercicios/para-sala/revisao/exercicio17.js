@@ -12,3 +12,12 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+const profissionaisTI = pessoas.filter((setor) => setor.area.includes('TI'))
+console.log(profissionaisTI)
+
+// OU
+
+pessoasTI = pessoas.filter((pessoa) => pessoa.area === "TI");
+
+console.log(pessoasTI);

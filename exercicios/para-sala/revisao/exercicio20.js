@@ -13,3 +13,14 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+const nome = 'Jéssica'
+const repetirNome = 4
+
+const obterNome = (nome, repeticao) => {
+    for(i = 0; i < repeticao; i++) {
+        console.log(nome)
+    }
+}
+
+obterNome(nome, repetirNome)

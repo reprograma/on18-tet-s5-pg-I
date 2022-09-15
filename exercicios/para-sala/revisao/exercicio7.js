@@ -3,3 +3,13 @@ Ovos, feijão, macarrão, abobora, cenoura.
 Em seguida, no console.log(),
 mostre a quantidade de itens que contém
 na lista criada.  */
+
+let feira = [
+    "Ovos",
+    "feijão",
+    "macarrão",
+    "abóbora",
+    "cenoura"
+]
+
+console.log(feira.length)
