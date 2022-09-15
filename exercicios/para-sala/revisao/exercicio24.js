@@ -7,6 +7,18 @@ const endereco = {
     uf: "SP"
 };
 
+function dados(nome, sobrenome){
+
+    return "A", nome + " " + sobrenome  +" mora em "  +  
+    endereco.cidade  +  " / " + endereco.uf + ", no bairro " +  endereco.bairro + ", " + "na rua '" 
+    + endereco.rua + "' com nº "  +  endereco.numero + ".";
+
+}
+
+const result = dados("ana" ,"santos")
+console.log(result)
+
+
 /*Retorne o seguinte conteúdo:*
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.

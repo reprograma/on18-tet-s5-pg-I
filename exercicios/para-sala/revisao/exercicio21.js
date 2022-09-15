@@ -13,3 +13,8 @@ Jordana
 Lilian
 28
 ...*/
+
+let encotrarNome = usuarios.forEach(element => {
+    console.log(element.nome);
+    console.log(element.idade);
+});

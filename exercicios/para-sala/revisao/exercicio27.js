@@ -7,3 +7,7 @@ Arrow Function */
     nome: nome
   }
 }*/
+ getUser = (id, nome) => {  id; "id",  nome; "nome"}
+
+getUser()
+

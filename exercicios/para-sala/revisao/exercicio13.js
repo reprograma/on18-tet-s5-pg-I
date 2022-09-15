@@ -12,3 +12,6 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+let Desenvolvedoras = colaboradores.filter((item) => item.funcao.includes('Desenvolvedora'));
+console.table(Desenvolvedoras)
