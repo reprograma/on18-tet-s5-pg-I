@@ -6,6 +6,7 @@ const usuarios = [
     { nome: "Janaina", idade: 19 }
 ];
 
+
 /*Imprima todos nome e idade da variável usuários.
 A saída deverá ser:
 Jordana
