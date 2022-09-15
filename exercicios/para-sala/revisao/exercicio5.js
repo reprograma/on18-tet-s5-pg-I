@@ -3,3 +3,12 @@
     especie = cachorro
     raca = golden
 */
+
+let animal ={
+    porte: "pequeno",
+    especie: "gato",
+    raca: "Maine",
+
+}
+
+console.log(animal)
