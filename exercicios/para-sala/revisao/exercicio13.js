@@ -12,3 +12,10 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+const colaboradores1 = colaboradores.filter((valorAtual) =>{
+     return valorAtual.funcao.includes('Desenvolvedora')
+})
+
+
+console.log('Parabéns a todos os colaboradores abaixo:',colaboradores1)
