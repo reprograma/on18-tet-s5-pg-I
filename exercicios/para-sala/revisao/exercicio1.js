@@ -4,3 +4,7 @@
 const nomeColaboradora = "Maria";
 
 console.log("Resultado do exercício: ", nomeColaboradora);
+
+const nomeColaborador = "Marcilio";
+
+console.log(nomeColaborador)
