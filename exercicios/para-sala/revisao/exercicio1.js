@@ -1,6 +1,6 @@
 /*Armazene na váriavel nomeColaboradora o nome "Maria",
  em seguida, utilize o console.log() para mostrar.*/
 
-const nomeColaboradora = "Maria";
+let nomeColaboradora = "Maria"
+console.log("O nome da colaboradora é:", nomeColaboradora)
 
-console.log("Resultado do exercício: ", nomeColaboradora);
