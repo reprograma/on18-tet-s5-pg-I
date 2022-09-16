@@ -10,3 +10,12 @@ let produtos = [
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+
+ const produtosDestacados = produtos.map((item) => ({
+    id: item.id,
+    nome: item.nome,
+    precoUnitario: item.precoUnitario + 1.15
+
+ }))
+
+ console.log(produtosDestacados)
