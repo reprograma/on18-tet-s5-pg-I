@@ -11,7 +11,7 @@ const livros = {
         "link": "https://github.com/cezaraugusto/You-Dont-Know-JS"
     },
     3: {
-        "titulo": " Mulheres, raça e classe",
+        "titulo": "Mulheres, raça e classe",
         "quemEscreveu": "Angela Davis",
         "link": "https://edisciplinas.usp.br/pluginfile.php/4248256/mod_resource/content/0/Angela%20Davis_Mulheres%2C%20raca%20e%20classe.pdf"
     }
@@ -24,9 +24,18 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+//1ª resolução
+// function imprimirLivros(lista) {
+//     for (let livro in lista) {
+//         console.log(`Título: ${livros[livro]["titulo"]}`)
+//     }
+// }
+// imprimirLivros(livros);
+
+//2ª resolução
 function imprimirLivros(lista) {
     for (let livro in lista) {
+        console.log("Título: " + livros[livro].titulo)
     }
-    console.log(lista);
 }
 imprimirLivros(livros);

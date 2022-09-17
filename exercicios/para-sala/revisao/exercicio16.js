@@ -21,37 +21,49 @@ const notasAlunas = [{
     ]
 }
 ]
-const notaFinalAlunas = notasAlunas.map(aluna => {
-    let materiaPortugues;
-    let materiaMatematica;
-    let notaFinalPortugues;
-    let notaFinalMatematica;
 
-    for (let i = 0; i < aluna.notas.length; i++) {
-        materiaPortugues = aluna.notas[i].materia
-        materiaMatematica = aluna.notas[i].materia
-        notaFinalPortugues += aluna.notas[i].nota * aluna.notas[i].peso
+//1ª resolução:
+// const notasFinaisAlunas = notasAlunas.map((aluna) => {
 
-    }
-    return {
-        nome: aluna.nome,
-        materiaPortugues: materiaPortugues,
-        notaFinalPortuges: notaFinalPortugues,
-        materiaMatematica: materiaMatematica,
-        notaFinalMatematica: notaFinalMatematica
-    }
-})
-console.table(notaFinalAlunas)
+//     const arrNotas = aluna.notas;
+
+//     let somaNotas = 0;
+//     let somaPeso = 0;
+
+//     for (let i = 0; i < arrNotas.length; i++) {
+
+//         const nota = arrNotas[i].nota;
+//         const peso = arrNotas[i].peso;
+
+//         const notaFinalMateria = nota * peso;
 
 
-//2ª Resolução
-// const notaFinalAlunas = notasAlunas.map(aluna => {
-//     let notaFinal = 0
-//     for (let i = 0; i < aluna.notas.length; i++){
-// notaFinal += aluna.notas[i].nota * aluna.notas[i].peso/2
+//         somaNotas += notaFinalMateria;
+//         somaPeso += peso;
+//         //matematicamente: (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+
+
 //     }
-//     return {
+
+//     //matematicamente: (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+//     const notaFinalAluna = somaNotas / somaPeso
+
+//     const resultadoTotal = {
 //         nome: aluna.nome,
-//         notaFinal: notaFinal
-// }})
-// console.log(notaFinalAlunas)
+//         notaFinal: notaFinalAluna.toFixed(2)
+//     }
+
+//     return resultadoTotal
+
+// })
+
+// console.log(notasFinaisAlunas)
+
+//2ª resolução
+for (let i of notasAlunas) {
+    console.table(["A aluna " + i.nome + " tirou " + (((i.notas[0].nota * i.notas[0].peso) + (i.notas[1].nota * i.notas[1].peso)) / (i.notas[0].peso + i.notas[1].peso)).toFixed(2) + " na nota final."]);
+}
+
+
+
+
