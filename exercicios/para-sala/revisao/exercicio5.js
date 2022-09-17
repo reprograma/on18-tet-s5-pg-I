@@ -6,26 +6,26 @@
 
 // Primeira resolução:
 
-// const animal = {
-//     porte : "grande",
-//     especie : "cachorro",
-//     raca : "golden"
-// }
-// console.log(animal)
+const animal = {
+    porte : "grande",
+    especie : "cachorro",
+    raca : "golden"
+}
+console.table(animal)
 
 // Segunda resolução:
 
-function animal(porte, especie, raca) {
+// function animal(porte, especie, raca) {
 
-    let animal = {
+//     let animal = {
 
-        porte: porte,
+//         porte: porte,
 
-        especie: especie,
+//         especie: especie,
 
-        raca: raca
-    }
-    console.log(animal);
-}
-animal("grande", "cachorro", "golden");
-animal("pequeno", "gato", "persa")
+//         raca: raca
+//     }
+//     console.log(animal);
+// }
+// animal("grande", "cachorro", "golden");
+// animal("pequeno", "gato", "persa")

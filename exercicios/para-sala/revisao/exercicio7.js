@@ -15,6 +15,6 @@ na lista criada.  */
 
 function contarItens(listaDeCompras) {
     console.log(listaDeCompras.length);
-    console.log(listaDeCompras)
+    console.table(listaDeCompras)
 }
 contarItens(["Ovos", "feijão", "macarrão", "abobora", "cenoura"])
