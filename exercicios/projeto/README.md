@@ -35,22 +35,6 @@ Siga os passos abaixo:
 | `readline-sync` | Dependência para receber inputs no terminal|
 | 
   
-### `Arquitetura`
-
-```
- 📁 projeto-de-livros
-   |- 📁 controllers
-   |     |- 📄 buscarLivros.js
-   |     |- 📄 listarRecomendados.js
-   |     |- 📄 listarLivrosNaoLidos.js
-   |     |- 📄 listarLivrosOrdenados.js
-   |- 📁 node_modules
-   |- 📄 app.js
-   |- 📄 database.js
-   |- 📄 .gitignore
-   |- 📄 package.json  
-   |- 📄 package-lock.json
-```
 
 ### Requisitos técnicos: 
  - *buscarLivros*: Deverá ser possível buscar livros pela categoria;
