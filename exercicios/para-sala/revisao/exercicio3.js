@@ -1,5 +1,6 @@
 // Armazene separadamente, todos os tipos de dados que aprendeu até hoje.
 
+<<<<<<< HEAD
 // const assuntosQueAprendemos = [
 //     "Conceitos Iniciais", "Versionamento de Código", "Variáveis",
 //     "Operadores", "Condicional", "Loop", "Escopo", "Função",
@@ -35,6 +36,8 @@
 
 // Jess resolvendo:
 
+=======
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
 let tipoNumeroInteiro = 12;
 let tipoNumeroFlutuante = 12.5;
 let tipoString = "Textos com caractéres especiais";
@@ -52,4 +55,9 @@ let tipoArrays = ["String", 12,
 
 let outrosTipos = [undefined, null, NaN];
 
+<<<<<<< HEAD
 console.log(typeof(tipoString))
+=======
+
+console.log(typeof(tipoBooleano))
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

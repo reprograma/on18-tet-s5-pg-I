@@ -14,6 +14,7 @@ const tarefas = [{
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
+<<<<<<< HEAD
 // Primeira resolução:
 
 // console.log(tarefas[0].reuniao)
@@ -34,3 +35,8 @@ function imprimirTarefa(lista) {
     console.log(lista.reuniao);
 }
 tarefas.forEach(imprimirTarefa);
+=======
+let acessarTarefa = tarefas[0].reuniao
+
+console.log(acessarTarefa)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

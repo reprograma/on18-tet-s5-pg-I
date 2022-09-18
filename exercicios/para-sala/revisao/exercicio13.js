@@ -13,6 +13,7 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNome: 'Bouley', funcao: 'Des
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
+<<<<<<< HEAD
 
 
 // Primeira resolução:
@@ -57,3 +58,12 @@ const colaboradoresDev = colaboradores.filter((profissao) => {
 
 })
 console.table(colaboradoresDev)
+=======
+const filtrarColaboradores = colaboradores.filter(colaboradora => {
+    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+
+    return getDesenvolvedoras
+})
+
+console.log(filtrarColaboradores)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
