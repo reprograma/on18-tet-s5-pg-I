@@ -12,7 +12,7 @@ let getUser = (id, nome) => {
   console.log(id, nome);
 };
 
-getUser("\n13", "\nBrizza",);
+getUser("\n13", "\nBrizza");
 
 
 // const getUser = () => ({name: "Brizza", id: 13});
