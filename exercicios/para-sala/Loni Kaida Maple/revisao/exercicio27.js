@@ -7,3 +7,12 @@ Arrow Function */
     nome: nome
   }
 }*/
+
+let getUser = ((id, nome) => {
+  return {
+    id: id,
+    nome: nome
+  }
+})
+
+console.log(getUser("pipipopo","Panda"));

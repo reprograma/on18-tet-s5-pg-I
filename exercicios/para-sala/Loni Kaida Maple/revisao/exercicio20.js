@@ -13,3 +13,15 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+let nome, repNum;
+nome="Panda🐼";
+repNum = 8;
+
+function repeatName(){
+    for(let x = 0; x<repNum; x++){
+        console.log(nome,x);
+    }
+}
+console.log(nome);
+repeatName();

@@ -13,3 +13,9 @@ Jordana
 Lilian
 28
 ...*/
+
+for(x of usuarios){
+    console.log("%c[----------------------------------------]", 'color: #f89ee6');
+    console.log("[Nome:] "+x.nome, "  [Idade:] "+x.idade);
+    console.log("%c[.---------------------------------------]", 'color: #f89ee6');
+}
