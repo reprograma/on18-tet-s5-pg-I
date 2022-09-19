@@ -1,7 +1,7 @@
 const read = require('readline-sync');
 const getLivroCategoria = require('./getLivroCategoria');
 const getLivroOrdenado = require('./getLivroOrdenado');
-const getLivroRecomendado = require('./getLivroOrdenado');
+const getLivroRecomendado = require('./getLivroRecomendado');
 const getLivrosNaoLidos = require('./getLivrosNaoLidos');
 
 const menuOpcoes = read.question(`
@@ -31,6 +31,6 @@ switch (menuOpcoes) {
         getLivrosNaoLidos()
         break;
     default:
-        console.log("SAIR")
+        console.log("Obrigada pela visita, volte sempre! SAIR")
         break;
 }
