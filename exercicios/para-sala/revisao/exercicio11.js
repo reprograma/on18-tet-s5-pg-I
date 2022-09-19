@@ -1,12 +1,33 @@
 // 2) Retornar frutas com somente a primeira letra maiúscula
 
-const frutas = ["maçã", "banana", "Pera", "Melancia", "pêsSSEgO", "jAcA"];
+/*const frutas = ["maçã", "banana", "Pera", "Melancia", "pêsSSEgO", "jAcA"];
 
 function retornarFrutaPrimeiraLetraMaiuscula(lista, indice0, indice1) {
     let buscarFrutas = lista.map((fruta) => fruta[indice0].toUpperCase()+fruta.slice(indice1).toLowerCase())
     console.log(buscarFrutas);
     
 }
-retornarFrutaPrimeiraLetraMaiuscula(frutas, 0, 1);
+retornarFrutaPrimeiraLetraMaiuscula(frutas, 0, 1);*/
+
+let tratarFrutas = [];
+
+// a ideia do for é percorrer listas para fazer algum tipo de ação
+
+for (let inicializador = 0; inicializador < frutas.length; inicializador++) {
+    const todasFrutas = frutas[inicializador]
+
+    const letraMaiuscula = frutas[inicializador].charAt(0).toUpperCase();
+    const letraMinuscula = frutas[inicializador].slice(1).toLowerCase();
+
+    const tratarPalavras = letraMaiuscula.concat(letraMinuscula)
+
+    //const concatenarOperador = letraMaiuscula + letraMinuscula;
+
+    tratarFrutas[inicializador] = tratarPalavras
+
+}
+
+console.log(tratarFrutas)
+
 
 
