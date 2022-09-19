@@ -19,6 +19,7 @@ const colaboradores = [
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
+<<<<<<< HEAD
 
 function mensagemAosColaboradores(lista, profissao) {
     let encontraColaborador = lista.filter((lista) => lista.funcao == profissao)
@@ -26,3 +27,12 @@ function mensagemAosColaboradores(lista, profissao) {
 }
 
 mensagemAosColaboradores(colaboradores, "Desenvolvedora")
+=======
+const filtrarColaboradores = colaboradores.filter(colaboradora => {
+    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+
+    return getDesenvolvedoras
+})
+
+console.log(filtrarColaboradores)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

@@ -15,13 +15,16 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* [Tipos de Dados](#tema1)
-* [Tipos de dados compostos](#tema2)
-* [Operadores](#tema3)
-* [Estruturas Condicionas](#tema4)
-* [Estruturas de repetições](#tema5)
-* [Principais metódos de Array](#tema6)
-* [Funções](#tema7)
+- [Tema da Aula](#tema-da-aula)
+    - [Instruções](#instruções)
+    - [Resumo](#resumo)
+  - [Conteúdo](#conteúdo)
+    - [Tipos de Dados](#tipos-de-dados)
+    - [Tipos de Dados Composos](#tipos-de-dados-composos)
+    - [Operadores](#operadores)
+    - [Estruturas Condicionais](#estruturas-condicionais)
+    - [Principais metódos de Array](#principais-metódos-de-array)
+    - [Estruturas de Repetições](#estruturas-de-repetições)
 
 ## Conteúdo
 ### Tipos de Dados
@@ -70,16 +73,6 @@ O que veremos na aula de hoje?
 2. [For](#topico24)
 3. [For in](#topico25)
 4. [For of](#topico26)
-
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
-
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
 
 
 <p align="center">
