@@ -21,3 +21,7 @@ const notasAlunas = [{
         ]
     }
 ]
+
+const notasFinaisAlunas = notasAlunas.map(alunas) => {
+    console.log(alunas)
+})
