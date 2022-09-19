@@ -1,7 +1,7 @@
 const read = require('readline-sync');
-const getLivroCategoria = require('./getLivrosCategoria');
-const getLivroOrdenado = require('./getLivrosOrdenado');
-const getLivroRecomendado = require('./getLivrosOrdenado');
+const getCategoria = require('./getLivrosCategoria');
+const getLivrosOrdenado = require('./getLivrosOrdenado');
+const getLivrosRecomendado = require('./getLivrosRecomendado');
 const getLivrosNaoLidos = require('./getLivrosNaoLidos');
 
 const menuOpcoes = read.question(`
@@ -19,18 +19,18 @@ Digite o numero da opcao que voce quer:
 
 switch (menuOpcoes) {
     case '1':
-        getLivroCategoria()
+        getCategoria()
         break;
     case '2':
-        getLivroOrdenado()
+        getLivrosOrdenado()
         break;
     case '3':
-        getLivroRecomendado()
+        getLivrosRecomendado()
         break;
     case '4':
         getLivrosNaoLidos()
         break;
     default:
-        console.log("SAIR")
+        console.log("Obrigada pela visita a nossa livraria! Volte sempre!")
         break;
 }

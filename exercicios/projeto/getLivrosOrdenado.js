@@ -1,7 +1,7 @@
 const read = require('readline-sync');
 const livros = require('./database');
 
-const getLivroOrdenado = () => {
+const getLivrosOrdenado = () => {
 
     const opcaoInicial = read.question(`Voce deseja procurar os titulos dos livros por ordem crescente de paginas? S/N `).toUpperCase();
 
@@ -29,4 +29,4 @@ const getLivroOrdenado = () => {
     }
 }
 
-module.exports = getLivroOrdenado;
+module.exports = getLivrosOrdenado;
