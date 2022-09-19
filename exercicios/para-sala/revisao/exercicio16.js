@@ -38,16 +38,56 @@ const notasAlunas = [{
 
 // })
 
-// function notasEscola (nota){
-const notaFinalAlunas = notasAlunas.map(aluna => { 
-    let notaFinal = 0
-    for (let i = 0; i < aluna.notas.length; i++){
-notaFinal += aluna.notas[i].nota * aluna.notas[i].peso/2
+// // function notasEscola (nota){
+// const notaFinalAlunas = notasAlunas.map(aluna => { 
+//     let notaFinal = 0
+//     for (let i = 0; i < aluna.notas.length; i++){
+// notaFinal += aluna.notas[i].nota * aluna.notas[i].peso/2
+//     }
+//     return {
+//         nome: aluna.nome,
+//         notaFinal: notaFinal
+// }})
+// console.table(notaFinalAlunas)
+// // }
+// // notasEscola(notasAlunas)
+const notasFinaisAlunas = notasAlunas.map((aluna) => {
+
+    const arrNotas = aluna.notas;
+
+    let somaNotas = 0;
+    let somaPeso = 0;
+
+    for (let i = 0; i < arrNotas.length; i++) {
+
+        const nota = arrNotas[i].nota;
+        const peso = arrNotas[i].peso;
+
+        const notaFinalMateria = nota * peso;
+
+
+        somaNotas += notaFinalMateria;
+        somaPeso += peso;
+        //matematicamente: (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+
+
     }
-    return {
+
+    //matematicamente: (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+    const notaFinalAluna = somaNotas / somaPeso
+
+    const resultadoTotal = {
         nome: aluna.nome,
-        notaFinal: notaFinal
-}})
-console.table(notaFinalAlunas)
-// }
-// notasEscola(notasAlunas)
+        notaFinal: notaFinalAluna.toFixed(2)
+    }
+
+    return resultadoTotal
+
+})
+
+console.log(notasFinaisAlunas)
+
+
+//for (let i of notasAlunas) {
+    console.table(["A aluna " + i.nome + " tirou " + (((i.notas[0].nota * i.notas[0].peso) + (i.notas[1].nota * i.notas[1].peso)) / (i.notas[0].peso + i.notas[1].peso)).toFixed(2) + " na nota final."]);
+}

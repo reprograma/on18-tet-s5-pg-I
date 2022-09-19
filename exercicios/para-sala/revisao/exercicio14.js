@@ -44,3 +44,11 @@ function listaNovosValores(lista) {
     
 }
 listaNovosValores(produtos)
+
+
+const filtrarColaboradores = colaboradores.filter(colaboradora => {
+  const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+  return filtrarDesenvolvedora
+})
+
+console.log(filtrarColaboradores)

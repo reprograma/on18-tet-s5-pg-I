@@ -25,3 +25,5 @@ function imprimirTarefa(lista){
 
 }
 tarefas.forEach(imprimirTarefa)
+
+

@@ -24,12 +24,22 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
-function imprimirLivros(lista) {
-    for (let livro in lista){
-    console.log(lista, livros);
+// function imprimirLivros(lista) {
+//     for (let livro in lista){
+//     console.log(lista, livros);
    
 
  
+// }
+// }
+// imprimirLivros (livros)
+// function imprimirLivros(lista) {
+//     for (let livro in lista) {
+//         console.log(livros[livro].titulo)
+//     }
+// }
+// imprimirLivros(livros);
+for (livro in livros) {
+    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
+    `)
 }
-}
-imprimirLivros (livros)
