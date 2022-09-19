@@ -1,4 +1,12 @@
 //Organizar pessoas por ordem alfabética
+<<<<<<< HEAD
+const pessoas = ["Brizza", "Joselita", "Rafael", "Grazi", "Gabi", "Alane", "Letícia", "Luciana", "Pricila"]
+
+function ordemAlfabetica(lista) {
+    console.table(lista.sort())
+}
+ordemAlfabetica(pessoas)
+=======
 
 const colaboradores = ["Camila", "Kalliandra", "Julia", "Janny", "Eliene", "Brizza", "Jéssica"];
 const pessoas = [
@@ -31,3 +39,4 @@ const listarOrdemAlfabeticaCondicional = [...pessoas].sort((a, b) => {
     }
 
 })
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

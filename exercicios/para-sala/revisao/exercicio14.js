@@ -10,6 +10,30 @@ let produtos = [
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
+<<<<<<< HEAD
+ 
+//acréscimo de 1.15%
+function atualizarPrecoProduto(lista) {
+    const produtosNovoValor = lista.map(produto => {
+        const novoValor = [produto.id, produto.nome, produto.tamanho, produto.precoUnitario + 1.15
+        ]
+        return novoValor
+    })
+    console.table(produtosNovoValor)
+}
+atualizarPrecoProduto(produtos);
+
+//acréscimo de 1.15 reais
+function atualizarPrecoProduto(lista) {
+    const produtosNovoValor = lista.map(produto => {
+        const novoValor = [produto.id, produto.nome, produto.tamanho, produto.precoUnitario * 1.15
+        ]
+        return novoValor
+    })
+    console.table(produtosNovoValor)
+}
+atualizarPrecoProduto(produtos);
+=======
 
 const modificarValorProduto = produtos.map((produto) => {
     return {
@@ -20,3 +44,4 @@ const modificarValorProduto = produtos.map((produto) => {
 })
 
 console.log(modificarValorProduto)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
