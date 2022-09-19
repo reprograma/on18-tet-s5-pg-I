@@ -26,9 +26,9 @@ https://github.com/braziljs/eloquente-javascript
 */
 
 
- function imprimirLivros(lista){
-    for(let livro in lista){
-    }        
-console.log(livros, lista[livros])
+for (livro in livros) {
+    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
+    `)
 }
-imprimirLivros(livros) 
+
+

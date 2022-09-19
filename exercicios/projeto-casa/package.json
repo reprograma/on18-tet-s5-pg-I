@@ -1,0 +1,14 @@
+{
+  "name": "livraria-virtual",
+  "version": "1.0.0",
+  "description": "projeto destinado para implementação de um algoritimo de buscas ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "\"Alane\"",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
