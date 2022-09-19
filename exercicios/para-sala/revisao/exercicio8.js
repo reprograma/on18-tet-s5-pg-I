@@ -6,6 +6,7 @@ const lista2 = ["Gabi","Lara","Maria"]
 /*Adicione na última posição o nome Beatriz.
 Em seguida, mostre no console.log
 */
+<<<<<<< HEAD
 // listaNomes.push("Beatriz");
 // console.log(listaNomes)
 
@@ -17,3 +18,9 @@ function adicionaUltimoNome(nome, lista) {
 
 adicionaUltimoNome("Beatriz", lista2);
 adicionaUltimoNome("Beatriz", listaNomes);
+=======
+
+listaNomes.push("Beatriz");
+
+console.log(listaNomes);
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

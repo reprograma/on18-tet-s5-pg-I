@@ -14,6 +14,7 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"*/
 
+<<<<<<< HEAD
 // let repetirNome = 4*
 // console.log(nome.repeat(1))
 // console.log(nome.repeat(1))
@@ -29,3 +30,13 @@ function repetir(nome, quantidade){
 }
 repetir("Pricila\n", 4)
 
+=======
+function repetirNome(nome, repeticao) {
+    for (let i = 0; i < repeticao; i++) {
+        console.log(nome);
+    }
+
+}
+
+console.log(repetirNome("Jéssica", 4))
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
