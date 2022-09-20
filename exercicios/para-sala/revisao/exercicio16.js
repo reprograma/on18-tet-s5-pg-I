@@ -1,3 +1,4 @@
+
 //Retonar uma nova array com o nome das alunas com a nota final
 const notasAlunas = [{
         nome: "Julia",
@@ -21,6 +22,18 @@ const notasAlunas = [{
         ]
     }
 ]
+<<<<<<< HEAD
+let somatorio=0
+
+const notaFinalAlunas = notasAlunas.map(aluna => {
+    let notaFinal = 0
+    for (let i = 0; i < aluna.notas.length; i++){
+notaFinal += aluna.notas[i].nota * aluna.notas[i].peso/2}
+    return {
+        nome: aluna.nome,
+        notaFinal: notaFinal}})
+console.log(notaFinalAlunas)
+=======
 
 const notasFinaisAlunas = notasAlunas.map((aluna) => {
 
@@ -57,3 +70,4 @@ const notasFinaisAlunas = notasAlunas.map((aluna) => {
 })
 
 console.log(notasFinaisAlunas)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

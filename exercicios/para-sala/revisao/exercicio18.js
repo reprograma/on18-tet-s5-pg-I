@@ -3,6 +3,19 @@
 // input: array
 // output: um único valor
 
+<<<<<<< HEAD
+//const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//1ª resolução
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function retornarSoma(lista) {
+    console.log(lista.reduce((acumulador, valorAtual) => acumulador + valorAtual))}
+retornarSoma(num);
+//2ª resolução
+let total = num.reduce(function (acumulador, valorAtual) {
+    return acumulador + valorAtual;})
+console.log(total)
+=======
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
@@ -15,3 +28,4 @@ const getSomaTotal = num.reduce((valorInicial, item) => {
 })
 
 console.log(getSomaTotal)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

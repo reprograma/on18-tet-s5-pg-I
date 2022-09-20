@@ -14,6 +14,12 @@ Lilian
 28
 ...*/
 
+<<<<<<< HEAD
+function imprimirUsuarios(lista) {
+    console.log(lista.nome)
+    console.log(lista.idade);}
+usuarios.forEach(imprimirUsuarios);
+=======
 
 //for
 //fornecem acesso ao índice do array, não ao elemento real.
@@ -39,3 +45,4 @@ você tentar acessar o indice do array, você teria que utilizar o método entri
 for (usuario of usuarios) {
     console.log(usuario);
 }
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

@@ -13,6 +13,18 @@ const pessoas = [
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
 
+<<<<<<< HEAD
+function retornoPorCategoriaProfissional(lista, area) {
+    let retornoProfissional = lista.filter((lista) => lista.area == area)
+    console.table(retornoProfissional);}
+retornoPorCategoriaProfissional(pessoas, "TI")
+
+
+
+
+
+
+=======
 const getProfissionalTI = pessoas.filter((pessoa) => {
     const isTI = pessoa.area == "TI";
 
@@ -20,3 +32,4 @@ const getProfissionalTI = pessoas.filter((pessoa) => {
 })
 
 console.log(getProfissionalTI)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

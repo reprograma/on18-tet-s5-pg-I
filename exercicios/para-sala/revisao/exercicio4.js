@@ -7,6 +7,21 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  */
 
 
+<<<<<<< HEAD
+ /*let nome = "Leticia";
+
+ console.log(nome[0])
+
+ let nome = "Letícia";*/
+
+ let nome = "Letícia";
+
+function mostrarLetraDoNome(i) {
+    console.log(nome[i]);
+}
+
+mostrarLetraDoNome(0);
+=======
 let nome = "Letíciab";
 
 console.log(nome[0]);
@@ -14,3 +29,4 @@ console.log(nome.charAt(0));
 
 //desta forma, mostra SEMPRE a última letra;
 console.log(nome[nome.length - 1]);
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
