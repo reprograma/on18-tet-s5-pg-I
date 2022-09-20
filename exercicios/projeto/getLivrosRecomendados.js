@@ -1,7 +1,7 @@
 const read = require('readline-sync');
 const livros = require('./database');
 
-const getLivrosRecomendado = () => {
+const getLivroRecomendado = () => {
 
     const opcaoInicial = read.question(`Voce deseja procurar os livros que sao recomendados? S/N `).toUpperCase();
 
@@ -24,4 +24,4 @@ const getLivrosRecomendado = () => {
 }
 
 
-module.exports = getLivrosRecomendado;
+module.exports = getLivroRecomendado;
