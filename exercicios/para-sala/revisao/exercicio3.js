@@ -1,4 +1,5 @@
 // Armazene separadamente, todos os tipos de dados que aprendeu até hoje.
+<<<<<<< HEAD
 // let nome= "Gabriela"; 
 // let idade= 39; 
 // let feminino= true 
@@ -10,6 +11,8 @@
 //     aluna3 : "Brizza"
 // }
 // console.log(nome, typeof(nome), idade, typeof(idade), feminino, typeof(feminino), curso, typeof( curso), alunas, typeof(alunas));
+=======
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
 
 let tipoNumeroInteiro = 12;
 let tipoNumeroFlutuante = 12.5;
@@ -27,3 +30,9 @@ let tipoArrays = ["String", 12,
 ];
 
 let outrosTipos = [undefined, null, NaN];
+<<<<<<< HEAD
+=======
+
+
+console.log(typeof(tipoBooleano))
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

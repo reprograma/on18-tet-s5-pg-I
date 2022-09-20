@@ -10,6 +10,7 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Micaela', ultimoNome: 'Herman', funcao: 'Lead Instructor' },
     { PrimeiroNome: 'Robert', ultimoNome: 'Santos', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
+<<<<<<< HEAD
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' },
 
            
@@ -27,3 +28,15 @@ function mensagemAosColaboradoresDevs(lista, profissao) {
 
 mensagemAosColaboradoresDevs(colaboradores, "Desenvolvedora")
 
+=======
+    { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
+];
+
+const filtrarColaboradores = colaboradores.filter(colaboradora => {
+    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+
+    return getDesenvolvedoras
+})
+
+console.log(filtrarColaboradores)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
