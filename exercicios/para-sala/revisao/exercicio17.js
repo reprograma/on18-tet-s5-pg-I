@@ -13,7 +13,6 @@ const pessoas = [
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
 
-<<<<<<< HEAD
 const profissionaisTI = pessoas.filter((setor) => setor.area.includes('TI'))
 console.log(profissionaisTI)
 
@@ -22,12 +21,3 @@ console.log(profissionaisTI)
 pessoasTI = pessoas.filter((pessoa) => pessoa.area === "TI");
 
 console.log(pessoasTI);
-=======
-const getProfissionalTI = pessoas.filter((pessoa) => {
-    const isTI = pessoa.area == "TI";
-
-    return isTI
-})
-
-console.log(getProfissionalTI)
->>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

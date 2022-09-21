@@ -5,19 +5,6 @@
 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-<<<<<<< HEAD
 const arrayReduzida = num.reduce((acumulador, valorAtual) => acumulador + valorAtual);
 
 console.log(arrayReduzida)
-=======
-
-
-//GET é obter, utilizamos na programação para dizer que vamos obter um determinado valor.
-const getSomaTotal = num.reduce((valorInicial, item) => {
-    const somaTotal = valorInicial * item;
-
-    return somaTotal
-})
-
-console.log(getSomaTotal)
->>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
