@@ -1,7 +1,7 @@
 const livros = require('./database');
 const read = require('readline-sync');
 
-console.table(livros);
+//console.table(livros);
 
 function getCategory(){
     const initOption = read.question(`Voce deseja procurar por categorias? S/N`).toUpperCase();
@@ -18,7 +18,7 @@ function getCategory(){
         const confirmInput = read.question(`Tem certeza do que escolheu? S/N`).toUpperCase();
 
         if(confirmInput==="S"){
-            let catEscolhida="Mecha";
+            //let catEscolhida="Mecha";
 
 
             const catFilter = getLivrosMaped.filter(getLivrosMaped => getLivrosMaped.categoria === inputCat);

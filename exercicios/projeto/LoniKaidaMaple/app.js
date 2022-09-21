@@ -1,12 +1,13 @@
 //Dependencias------------------------------------------------//
 const read = require("readline-sync");
 const getCat = require('./getLivroCategoria');
+const getOrder = require('./getLivroOrdenado');
 
 //------------------------------------------------------------//
 
 const menuOpcoes = read.question(`
 Welcome to Maple Library!
-U ω U
+U W U
 
 Digite o numeo da opcao que voce quer:
 
@@ -25,6 +26,7 @@ switch (menuOpcoes) {
         break;
     case '2':
         console.log("Buscar livros de forma ordenada  [U ω U]");
+        getOrder();
         break;
     case '3':
         console.log("SAIR  [O ω O]");

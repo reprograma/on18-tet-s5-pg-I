@@ -46,6 +46,41 @@ const livros = [{
     paginas: 700,
     leu: true,
     recomenda: true
+},
+{
+    nome: "Arqueologia moderna",
+    categoria: "Estudos",
+    paginas: 210,
+    leu: true,
+    recomenda: true
+},
+{
+    nome: "X-man",
+    categoria: "Super heroi",
+    paginas: 150,
+    leu: true,
+    recomenda: true
+},
+{
+    nome: "Senhor dos aneis",
+    categoria: "Aventura",
+    paginas: 560,
+    leu: true,
+    recomenda: true
+},
+{
+    nome: "Silent hill",
+    categoria: "Terror",
+    paginas: 283,
+    leu: true,
+    recomenda: true
+},
+{
+    nome: "Demolidor",
+    categoria: "Super heroi",
+    paginas: 140,
+    leu: true,
+    recomenda: true
 }
 ]
 
