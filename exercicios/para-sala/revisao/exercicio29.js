@@ -19,3 +19,4 @@ const retornarNota = (nota) => {
     }
 
 console.log(retornarNota(66))
+
