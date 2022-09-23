@@ -1,21 +1,20 @@
 // Armazene separadamente, todos os tipos de dados que aprendeu até hoje.
+ 
+let tiposDeDados = 
+[
+    {numero: 2.2},
+    {numeroint: 12},
+    { frases:"String"},
+    { folsoVerdadeiro: true},
+    { Data:"Date"},
+    { lista:"Array"},
+    { objeto:"object"},
+        
+]
 
-let tipoNumeroInteiro = 12;
-let tipoNumeroFlutuante = 12.5;
-let tipoString = "Textos com caractéres especiais";
-let tipoBooleano = true;
-let tipoObjeto = {
-    nome: "Jéssica",
-    idade: 15,
-    estiloMusical: ["forró", "rock", "samba rock"]
+function minhaFincao(){
+    console.log("Tipos de dados que eu aprendi: Boolean, Date, Numeber(float) (inteiro), String, Array e object")
 }
-let tipoArrays = ["String", 12,
-    {
-        nome: "Objeto propriedade"
-    }
-];
 
-let outrosTipos = [undefined, null, NaN];
+minhaFincao() 
 
-
-console.log(typeof(tipoBooleano))

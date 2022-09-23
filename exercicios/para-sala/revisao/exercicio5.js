@@ -4,11 +4,12 @@
     raca = golden
 */
 
-//objeto literal
-let animal = {
-    porte: "grande",
+const animal = {
+    porte : "grande",
     especie: "cachorro",
-    raca: "golden"
+    raca : "golden",
+
 }
 
-console.log(animal)
+console.table(animal)
+console.log(animal.raca)
