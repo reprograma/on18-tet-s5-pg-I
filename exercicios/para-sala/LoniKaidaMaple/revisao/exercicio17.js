@@ -13,7 +13,7 @@ const pessoas = [
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
 
-<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio17.js
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio17.js
 //let profissionaisTI = pessoas.map(profissionais => profissionais.area=="TI");
 
 let profissionaisTI = pessoas.map(produto => {
@@ -31,7 +31,7 @@ for(b of profissionaisTI){
 }
 
 //console.log(profissionaisTI)
-=======
+//=======
 const getProfissionalTI = pessoas.filter((pessoa) => {
     const isTI = pessoa.area == "TI";
 
@@ -39,4 +39,4 @@ const getProfissionalTI = pessoas.filter((pessoa) => {
 })
 
 console.log(getProfissionalTI)
->>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio17.js
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio17.js

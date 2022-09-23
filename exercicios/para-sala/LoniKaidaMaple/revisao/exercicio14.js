@@ -11,7 +11,7 @@ let produtos = [
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
 
-<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio14.js
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio14.js
  //const nProducts = produtos.map(precoUnitario => (precoUnitario=precoUnitario+1.15));
 
  // cria uma nova array com as prorpiedades que selecionou//
@@ -27,7 +27,7 @@ let produtos = [
 );
 
 console.table(newProducts);
-=======
+//=======
 const modificarValorProduto = produtos.map((produto) => {
     return {
         id: produto.id,
@@ -37,4 +37,4 @@ const modificarValorProduto = produtos.map((produto) => {
 })
 
 console.log(modificarValorProduto)
->>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio14.js
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio14.js
