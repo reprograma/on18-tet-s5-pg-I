@@ -1,23 +1,15 @@
 const read = require("readline-sync");
 const livros = require("./database");
 
-const getLivroOrdenado = () => {
+const getLivrosNaoLidos = () => {
     const opcaoInicial = read
-        .question(
-            `Voce deseja procurar os titulos dos livros por ordem crescente de paginas? S/N `
-        )
+        .question(`Voce deseja procurar os livros que nao foram lidos? S/N `)
         .toUpperCase();
 
     if (opcaoInicial === "S") {
-        livros.sort(function(a, b) {
-            if (a.paginas < b.paginas) {
-                return -1;
-            } else {
-                return true;
-            }
-        });
-        console.log(livros);
+        const filtrarLivrosNaoLidos = livros.filter((livro) => livro.leu === false);
 
+        console.table(filtrarLivrosNaoLidos);
         const inputTitulo = read
             .question(`Digite o titulo do livro desejado conforme a tabela acima: `)
             .toUpperCase();
@@ -36,4 +28,4 @@ const getLivroOrdenado = () => {
     }
 };
 
-module.exports = getLivroOrdenado;
+module.exports = getLivrosNaoLidos;
