@@ -3,3 +3,12 @@
     especie = cachorro
     raca = golden
 */
+
+const animal = {
+    porte:"grande",
+    especie: "cachorro",
+    raca: "golden",
+    
+  };//objeto
+
+  console.log(animal)

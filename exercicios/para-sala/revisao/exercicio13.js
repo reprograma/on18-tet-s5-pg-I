@@ -12,3 +12,7 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
+
+
+let filtrarPor = colaboradores.filter((e) => e == 'De');
+console.log(filtrarPor);
