@@ -5,5 +5,12 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  para encontrar o primeiro caractere do nome armazenado.
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
-const nome = "Letícia";
-console.log("primeira letra: " + nome[0]);
+
+
+let nome = "Letíciab";
+
+console.log(nome[0]);
+console.log(nome.charAt(0));
+
+//desta forma, mostra SEMPRE a última letra;
+console.log(nome[nome.length - 1]);

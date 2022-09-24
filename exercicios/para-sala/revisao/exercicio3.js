@@ -1,10 +1,21 @@
 // Armazene separadamente, todos os tipos de dados que aprendeu até hoje.
-const str = "string";
-const num = 123;
-const bool = false;
-const arr = [1];
-const obj ={
-    prop1: "valor"
-};
-const nullVal= null;
-const undefVal = undefined;
+
+let tipoNumeroInteiro = 12;
+let tipoNumeroFlutuante = 12.5;
+let tipoString = "Textos com caractéres especiais";
+let tipoBooleano = true;
+let tipoObjeto = {
+    nome: "Jéssica",
+    idade: 15,
+    estiloMusical: ["forró", "rock", "samba rock"]
+}
+let tipoArrays = ["String", 12,
+    {
+        nome: "Objeto propriedade"
+    }
+];
+
+let outrosTipos = [undefined, null, NaN];
+
+
+console.log(typeof(tipoBooleano))

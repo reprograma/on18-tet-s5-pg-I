@@ -3,8 +3,12 @@
     especie = cachorro
     raca = golden
 */
-const animal = {
+
+//objeto literal
+let animal = {
     porte: "grande",
     especie: "cachorro",
     raca: "golden"
-};
+}
+
+console.log(animal)

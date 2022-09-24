@@ -25,8 +25,7 @@ https://github.com/braziljs/eloquente-javascript
 ...
 */
 
-for (const key in livros) {
-    for (const livroObj in livros[key]) {
-        console.log(livros[key][livroObj]);
-    }
+for (livro in livros) {
+    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
+    `)
 }

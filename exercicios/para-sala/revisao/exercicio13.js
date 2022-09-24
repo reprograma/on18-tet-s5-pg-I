@@ -13,4 +13,10 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
-console.log(colaboradores.filter( col => col.funcao === "Desenvolvedora" ));
+const filtrarColaboradores = colaboradores.filter(colaboradora => {
+    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+
+    return getDesenvolvedoras
+})
+
+console.log(filtrarColaboradores)
