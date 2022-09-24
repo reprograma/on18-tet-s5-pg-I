@@ -1,0 +1,14 @@
+{
+  "name": "livraria-virtual",
+  "version": "1.0.0",
+  "description": "projeto destinado para a implementação de um algoritmo de buscas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Luciana da Silva Santos de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

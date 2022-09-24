@@ -13,3 +13,11 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+function repetirNome( obterNome , quant){
+    for (i=0; i < quant;i++){
+        console.log(obterNome)
+    }
+} 
+
+repetirNome('Alexandre',10)

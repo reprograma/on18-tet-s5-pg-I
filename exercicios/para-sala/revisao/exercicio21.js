@@ -13,3 +13,20 @@ Jordana
 Lilian
 28
 ...*/
+
+//uma forma de fazer 
+function imprimirUsuario(lista){
+    console.log(lista.nome)
+    console.log(lista.idade)
+    console.log('===========================')
+}
+
+usuarios.forEach(imprimirUsuario)
+
+
+//-------------outra forma
+
+let usuariosLista = usuarios.map(usuarios => usuarios.nome + '  ' + usuarios.idade)
+console.table(usuariosLista)
+
+// ---
