@@ -1,0 +1,16 @@
+{
+  "name": "biblioteca-virtual",
+  "version": "1.0.0",
+  "description": "projeto destinado a busca de itens",
+  "main": "projeto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+
+  },
+  "author": "Julia Arce",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
