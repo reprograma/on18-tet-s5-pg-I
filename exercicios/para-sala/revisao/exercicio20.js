@@ -18,3 +18,12 @@ let repetirNome = 4
 let repetir = obterNome.repeat(repetirNome)
 console.log(repetir)
 
+function repetir(nome, quantidade){
+    console.log(nome.repeat(quantidade))
+}
+repetir("Alessandra\n", 4)
+
+let listaUsuarios = usuarios.map(usuarios => usuarios.nome + " " + usuarios.idade)
+
+console.table(listaUsuarios);
+

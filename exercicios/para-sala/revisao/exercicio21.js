@@ -14,8 +14,8 @@ Lilian
 28
 ...*/
 let usuariosNovo = usuarios.map(item => {
-    return {nome: item.nome,
-    idade: item.idade,
+    return {item.nome /n,
+    item.idade,
 }
 });
 console.log(usuariosNovo)

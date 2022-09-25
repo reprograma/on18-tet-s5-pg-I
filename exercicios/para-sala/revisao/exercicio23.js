@@ -24,3 +24,15 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
+function listar (){
+    for (let obras in livros) {
+    console.log(livros[obras]["titulo"], livros[obras]["quemEscreveu"], livros[obras]["link"])
+    }
+}
+listar ()
+
+/* como Jess fez */
+for (livro in livros) {
+    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
+    `)
+}

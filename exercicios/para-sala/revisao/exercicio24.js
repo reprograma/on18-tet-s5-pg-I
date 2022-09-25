@@ -11,3 +11,6 @@ const endereco = {
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+function getInfo(info) {
+    console.log(``)
+}0
