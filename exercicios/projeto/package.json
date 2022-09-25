@@ -1,0 +1,15 @@
+{
+  "name": "livraria-virtual-reprograma",
+  "version": "1.0.0",
+  "description": "\"Criaremos um sistema com os seguintes algoritimos de busca",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+
+  },
+  "author": "\"Evellyn Assis\"",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
