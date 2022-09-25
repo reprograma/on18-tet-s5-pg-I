@@ -1,0 +1,15 @@
+{
+  "name": "livraria-virtual-reprograma",
+  "version": "1.0.0",
+  "description": "- Implemente os filtros que estão com ícone 🚩:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Thaysa Zooby",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
