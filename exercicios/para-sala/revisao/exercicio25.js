@@ -2,8 +2,8 @@
 
 function somarValores (valor1, valor2){
 
-    let resultado = valor1 + valor2
-    return resultado
+    let resultadoSoma = valor1 + valor2
+    return resultadoSoma
 }
 
 console.log(somarValores(5, 15));

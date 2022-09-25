@@ -28,3 +28,9 @@ https://github.com/braziljs/eloquente-javascript
 for (let pesquisar in livros ){
     console.log(livros[pesquisar]);
 }
+
+for (livro in livros) {
+    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
+    `)
+}
+

@@ -15,5 +15,4 @@ Lilian
 ...*/
 
 let listaUsuarios = usuarios.map(usuarios => usuarios.nome + " " + usuarios.idade)
-
 console.table(listaUsuarios);
