@@ -13,3 +13,12 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"
 "Alessandra"*/
+
+function repetirNome(nome, repeticao) {
+    for (let i = 0; i < repeticao; i++) {
+        console.log(nome);
+    }
+
+}
+
+console.log(repetirNome("Jéssica", 4))
