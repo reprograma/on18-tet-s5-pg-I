@@ -1,5 +1,8 @@
 // Armazene uma soma entre dois números e mostre no console.log();
 
-let soma = 4 + 6;
+let x = 1;
+let y = 2;
+
+let soma = x + y;
 
 console.log(soma);

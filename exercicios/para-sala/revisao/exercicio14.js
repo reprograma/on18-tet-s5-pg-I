@@ -47,6 +47,7 @@ let produtos = [
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
 
+<<<<<<< HEAD
 produtos = produtos.map((produto) => {
   produto.precoUnitario += produto.precoUnitario * 0.15;
   return {
@@ -58,3 +59,14 @@ produtos = produtos.map((produto) => {
 });
 
 console.log(produtos);
+=======
+const modificarValorProduto = produtos.map((produto) => {
+    return {
+        id: produto.id,
+        nome: produto.nome,
+        preco: produto.precoUnitario * 1.15
+    }
+})
+
+console.log(modificarValorProduto)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
