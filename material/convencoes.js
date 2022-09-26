@@ -26,7 +26,7 @@ Não deve ser necessário adicionar um comentário para documentação adicional
 
 // Tem como melhorar esse nome e ajustar essa variável, vai quebrar o código. :)
 valor
-const = 'Andreia';
+const valor  = 'Andreia';
 
 // Tem como melhorar esse nome. :)
 const val = 'Marcia';

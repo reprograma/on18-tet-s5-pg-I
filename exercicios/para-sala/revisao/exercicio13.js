@@ -12,11 +12,5 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
-
-const filtrarColaboradores = colaboradores.filter(colaboradora => {
-    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
-
-    return getDesenvolvedoras
-})
-
-console.log(filtrarColaboradores)
+const filtrarPorDesenvolvedora = colaboradores.filter((element) => element.funcao == 'Desenvolvedora');
+console.log(filtrarPorDesenvolvedora);

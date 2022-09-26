@@ -24,8 +24,6 @@ Marijn Haverbeke
 https://github.com/braziljs/eloquente-javascript
 ...
 */
-
-for (livro in livros) {
-    console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
-    `)
+for (propriedade in livros){
+    console.log("Titulo:" + livros[propriedade]["titulo"])
 }

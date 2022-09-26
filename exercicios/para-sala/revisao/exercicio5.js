@@ -3,12 +3,10 @@
     especie = cachorro
     raca = golden
 */
-
-//objeto literal
-let animal = {
+let animalCachorro= [ {
     porte: "grande",
-    especie: "cachorro",
+    especie:"cachorro",
     raca: "golden"
-}
+}]
 
-console.log(animal)
+console.table(animalCachorro)
