@@ -20,6 +20,7 @@ const notasAlunas = [{
             { materia: "portugues", nota: 2, peso: 2 }
         ]
     }
+<<<<<<< HEAD
 ]
 
 const notasFinaisAlunas = notasAlunas.map((aluna) => {
@@ -57,3 +58,6 @@ const notasFinaisAlunas = notasAlunas.map((aluna) => {
 })
 
 console.log(notasFinaisAlunas)
+=======
+] 
+>>>>>>> 6b8307fbbc2f26c79ebf41ceb8c316a0801ef102
