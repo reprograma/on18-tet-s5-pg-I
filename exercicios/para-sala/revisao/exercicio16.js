@@ -20,4 +20,4 @@ const notasAlunas = [{
             { materia: "portugues", nota: 2, peso: 2 }
         ]
     }
-]
+] 
