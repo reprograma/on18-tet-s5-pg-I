@@ -13,6 +13,14 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
+<<<<<<< HEAD
+const colaboradoresTI = colaboradores.filter(colaboradora => {
+    const desenvolvedoras = colaboradora.funcao === 'Desenvolvedora';
+    return desenvolvedoras
+})
+
+console.log(colaboradoresTI)
+=======
 const filtrarColaboradores = colaboradores.filter(colaboradora => {
     const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
 
@@ -20,3 +28,4 @@ const filtrarColaboradores = colaboradores.filter(colaboradora => {
 })
 
 console.log(filtrarColaboradores)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

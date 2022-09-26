@@ -22,6 +22,10 @@ const notasAlunas = [{
     }
 ]
 
+<<<<<<< HEAD
+let notaFinal = (nota1*peso1)+(nota2*peso2)/(peso1+peso2)
+
+=======
 const notasFinaisAlunas = notasAlunas.map((aluna) => {
 
     const arrNotas = aluna.notas;
@@ -57,3 +61,4 @@ const notasFinaisAlunas = notasAlunas.map((aluna) => {
 })
 
 console.log(notasFinaisAlunas)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

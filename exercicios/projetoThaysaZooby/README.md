@@ -37,10 +37,10 @@ Siga os passos abaixo:
   
 
 ### Requisitos técnicos: 
- - *buscarLivros*: Deverá ser possível buscar livros pela categoria;
- - *listarLivrosOrdenados*: Deverá retornar todos os livros ordenados de forma crescente por quantidade de páginas;
- - *listarRecomendados*: Deverá listar livros que já foram lidos e que são recomendados;
- - *listarLivrosNaoLidos*: Deverá listar livros que ainda não foram lidos
+ [X] *buscarLivros*: Deverá ser possível buscar livros pela categoria;
+ [X] *listarLivrosOrdenados*: Deverá retornar todos os livros ordenados de forma crescente por quantidade de páginas;
+ [X] *listarRecomendados*: Deverá listar livros que já foram lidos e que são recomendados;
+ [X] *listarLivrosNaoLidos*: Deverá listar livros que ainda não foram lidos
 
 
 ### Modelagem de dados:

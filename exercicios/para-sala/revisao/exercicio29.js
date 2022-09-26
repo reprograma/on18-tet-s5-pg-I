@@ -6,6 +6,22 @@ Se a pontuação for maior que 70, retornar: "C"
 Se a pontuação for maior que 65, retornar: "D"
 ou "F" */
 
+<<<<<<< HEAD
+let nota = 89
+
+
+
+if (nota > 90){
+    console.log (`Conceito: A`)
+} else if (nota > 80 && nota <= 90){
+    console.log (`Conceito: B`)
+} else if (nota > 70 && nota <= 80){
+    console.log (`Conceito: C`)
+} else if (nota > 65){
+    console.log (`Conceito: D`)
+} else {
+    console.log (`Conceito: F`)
+=======
 function getNotaIf(pontuacao) {
     if (pontuacao >= 90) {
         return `A`
@@ -40,4 +56,5 @@ function getNotaSwitch(pontuacao) {
         default:
             return retornarNota = "F";
     }
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
 }
