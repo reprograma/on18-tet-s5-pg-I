@@ -6,6 +6,13 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
 
+<<<<<<< HEAD
+// const nome = 'Letícia';
+
+
+console.log(nome[0]);
+=======
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
 
 let nome = "Letíciab";
 
