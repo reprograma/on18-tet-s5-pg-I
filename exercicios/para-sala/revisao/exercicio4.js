@@ -6,11 +6,5 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  Por exemplo, o caractere no índice 0 na palavra "Mari" é "M".
  */
 
-
-let nome = "Letíciab";
-
-console.log(nome[0]);
-console.log(nome.charAt(0));
-
-//desta forma, mostra SEMPRE a última letra;
-console.log(nome[nome.length - 1]);
+ let nome= "Leticia"
+ console.log(nome[0])

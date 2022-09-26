@@ -13,10 +13,5 @@ const pessoas = [
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
 
-const getProfissionalTI = pessoas.filter((pessoa) => {
-    const isTI = pessoa.area == "TI";
-
-    return isTI
-})
-
-console.log(getProfissionalTI)
+const filtrarPorDesenvolvedor = pessoas.filter((element) => element.area == 'TI');
+console.log(filtrarPorDesenvolvedor);

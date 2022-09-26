@@ -4,7 +4,5 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"]
 /*Adicione na última posição o nome Beatriz.
 Em seguida, mostre no console.log
 */
-
-listaNomes.push("Beatriz");
-
-console.log(listaNomes);
+let adicionaoNome = listaNomes.concat("Beatriz", "Rafaela")
+console.log(adicionaoNome)

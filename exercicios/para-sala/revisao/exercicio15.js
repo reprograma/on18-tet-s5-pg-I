@@ -13,7 +13,7 @@ const tarefas = [{
 }, ];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+let acessarPropriedade = tarefas[0].reuniao
+console.log(tarefas[0])
+console.log(acessarPropriedade)
 
-let acessarTarefa = tarefas[0].reuniao
-
-console.log(acessarTarefa)

@@ -14,11 +14,10 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"*/
 
-function repetirNome(nome, repeticao) {
-    for (let i = 0; i < repeticao; i++) {
-        console.log(nome);
-    }
+let nomeRepetido = "Alessandra"
+console.log(nomeRepetido.repeat(4))
 
-}
+let numeroRepetido = 6
+console.log(nomeRepetido.repeat(6))
 
-console.log(repetirNome("Jéssica", 4))
+// melhorar a aplicação usando o for
