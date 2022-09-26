@@ -4,6 +4,21 @@ ____________________________
 Imagine que queremos enviar uma mensagem apenas aos colaboradores que são Desenvolvedoras.
 Podemos usar .filter () para retornar apenas os usuários que se encaixam na função correta.*/
 
+<<<<<<< HEAD
+const colaboradores = [
+  { PrimeiroNome: "Ana", ultimoNome: "Bouley", funcao: "Desenvolvedora" },
+  { PrimeiroNome: "Chloe", ultimoNome: "Alnaji", funcao: "Desenvolvedora" },
+  { PrimeiroNome: "Jonathan", ultimoNome: "Alves", funcao: "Publicitário" },
+  { PrimeiroNome: "Micaela", ultimoNome: "Herman", funcao: "Lead Instructor" },
+  { PrimeiroNome: "Robert", ultimoNome: "Santos", funcao: "Desenvolvedora" },
+  { PrimeiroNome: "Wes", ultimoNome: "Correia", funcao: "Instrutor" },
+  { PrimeiroNome: "Hanna", ultimoNome: "Montana", funcao: "Diretora" },
+];
+
+console.log(
+  colaboradores.filter((colaborador) => colaborador.funcao === "Desenvolvedora")
+);
+=======
 const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Chloe', ultimoNome: 'Alnaji', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Jonathan', ultimoNome: 'Alves', funcao: 'Publicitário' },
@@ -20,3 +35,4 @@ const filtrarColaboradores = colaboradores.filter(colaboradora => {
 })
 
 console.log(filtrarColaboradores)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

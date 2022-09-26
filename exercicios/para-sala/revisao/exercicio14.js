@@ -2,15 +2,64 @@
 Dado um array de objetos chamado produtos: */
 
 let produtos = [
-    { id: 123, nome: 'Camiseta', cor: 'azul', tamanho: 'P', categoria: 'Vestuário', estoque: 10, disponivel: true, precoUnitario: 15 },
-    { id: 125, nome: 'Regata', cor: 'azul', tamanho: 'GG', categoria: 'Vestuário', estoque: 0, disponivel: false, precoUnitario: 20 },
-    { id: 456, nome: 'Calça', cor: 'preto', tamanho: 'GG', categoria: 'Vestuário', estoque: 1, disponivel: true, precoUnitario: 15 },
-    { id: 982, nome: 'Tênis', cor: 'amarelo', tamanho: '38', categoria: 'Esportes', estoque: 2, disponivel: true, precoUnitario: 125 },
+  {
+    id: 123,
+    nome: "Camiseta",
+    cor: "azul",
+    tamanho: "P",
+    categoria: "Vestuário",
+    estoque: 10,
+    disponivel: true,
+    precoUnitario: 15,
+  },
+  {
+    id: 125,
+    nome: "Regata",
+    cor: "azul",
+    tamanho: "GG",
+    categoria: "Vestuário",
+    estoque: 0,
+    disponivel: false,
+    precoUnitario: 20,
+  },
+  {
+    id: 456,
+    nome: "Calça",
+    cor: "preto",
+    tamanho: "GG",
+    categoria: "Vestuário",
+    estoque: 1,
+    disponivel: true,
+    precoUnitario: 15,
+  },
+  {
+    id: 982,
+    nome: "Tênis",
+    cor: "amarelo",
+    tamanho: "38",
+    categoria: "Esportes",
+    estoque: 2,
+    disponivel: true,
+    precoUnitario: 125,
+  },
 ];
 
 /*Retorne uma nova array com o id do produto,
  nome, tamanho e preço unitário que terá o acréscimo de 1.15 sobre o valor dos produtos.*/
 
+<<<<<<< HEAD
+produtos = produtos.map((produto) => {
+  produto.precoUnitario += produto.precoUnitario * 0.15;
+  return {
+    id: produto.id,
+    nome: produto.nome,
+    tamanho: produto.tamanho,
+    precoUnitario: produto.precoUnitario,
+  };
+});
+
+console.log(produtos);
+=======
 const modificarValorProduto = produtos.map((produto) => {
     return {
         id: produto.id,
@@ -20,3 +69,4 @@ const modificarValorProduto = produtos.map((produto) => {
 })
 
 console.log(modificarValorProduto)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

@@ -1,9 +1,9 @@
 /* Dado um array de objetos: */
 
 const usuarios = [
-    { nome: "Jordana", idade: 18 },
-    { nome: "Lilian", idade: 28 },
-    { nome: "Janaina", idade: 19 }
+  { nome: "Jordana", idade: 18 },
+  { nome: "Lilian", idade: 28 },
+  { nome: "Janaina", idade: 19 },
 ];
 
 /*Imprima todos nome e idade da variável usuários.
@@ -14,6 +14,14 @@ Lilian
 28
 ...*/
 
+<<<<<<< HEAD
+usuarios.forEach((usuario) => {
+  console.log("-------------------");
+  for (const propriedade in usuario) {
+    console.log(`${propriedade}: ${usuario[propriedade]}`);
+  }
+});
+=======
 
 //for
 //fornecem acesso ao índice do array, não ao elemento real.
@@ -39,3 +47,4 @@ você tentar acessar o indice do array, você teria que utilizar o método entri
 for (usuario of usuarios) {
     console.log(usuario);
 }
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
