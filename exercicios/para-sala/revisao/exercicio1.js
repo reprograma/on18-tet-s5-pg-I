@@ -1,6 +1,11 @@
 /*Armazene na váriavel nomeColaboradora o nome "Maria",
  em seguida, utilize o console.log() para mostrar.*/
 
-const nomeColaboradora = "Maria";
+let nomeColaboradora = "Jaqueline"
+console.log(nomeColaboradora);
 
-console.log("Resultado do exercício: ", nomeColaboradora);
+
+let nomeDoProduto = "Sapato"
+console.log(nomeDoProduto)
+
+

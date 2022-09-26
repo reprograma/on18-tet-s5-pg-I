@@ -1,0 +1,17 @@
+{
+  "name": "livraria-virtual",
+  "version": "1.0.0",
+  "description": "Criação de um sistema com os seguintes algoritmos de busca",
+  "main": "index.js",
+  "scripts": {
+    "star": "node app.js"
+  },
+
+  "keywords":[],
+  
+  "author": "jaqueline",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
