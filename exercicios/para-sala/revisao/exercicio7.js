@@ -4,7 +4,12 @@ Em seguida, no console.log(),
 mostre a quantidade de itens que contém
 na lista criada.  */
 
-let mercado = ["Ovos", "Feijão", "Macarrão", "Abóbora", "Cenoura"];
+let feira = [
+    "Ovos",
+    "feijão",
+    "macarrão",
+    "abóbora",
+    "cenoura"
+]
 
-console.log(mercado.length)
-    // verifica o tamanho da array
+console.log(feira.length)

@@ -2,11 +2,11 @@
 Atribua valores as propriedades criadas e separadamente mostre as propriedades no console.log */
 
 let curso = {
-    nome: "Lógica de Programação",
-    periodo: "Noturno",
-    professoras: ["Jéssica", "Ana Beatriz", "Júlia"]
+    nome: "Inglês",
+    periodo: "semestral",
+    professora: "Beatriz"
 }
 
-console.log(curso.professoras)
-    //console.log(curso.professoras[professoras].length - 1)
-console.log(curso.periodo)
+console.log(curso.nome);
+console.log(curso.periodo);
+console.log(curso.professora);

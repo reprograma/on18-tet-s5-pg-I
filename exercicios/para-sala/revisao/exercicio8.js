@@ -5,6 +5,6 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"]
 Em seguida, mostre no console.log
 */
 
-listaNomes.push("Beatriz");
+const arrayConcatenada = listaNomes.concat('Beatriz')
 
-console.log(listaNomes);
+console.log(arrayConcatenada)

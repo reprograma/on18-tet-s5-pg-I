@@ -8,12 +8,11 @@ Arrow Function */
   }
 }*/
 
-let getUser = ((id, nome) => {
-    return {
-        id: id,
-        nome: nome
-    }
-})
+const getUser = (id, nome) => {
+  return {
+    id: id,
+    nome: nome
+  }
+}
 
-
-console.log(getUser(123, "Jéssica"))
+console.log(getUser(2563, 'Rachel'))

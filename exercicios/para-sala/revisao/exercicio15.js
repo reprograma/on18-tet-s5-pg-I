@@ -14,6 +14,11 @@ const tarefas = [{
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
-let acessarTarefa = tarefas[0].reuniao
+// let procurar = Object.values(tarefas.find((item) => item.reuniao))
+// console.log(procurar) //PROCURA OS VALORES DAS PROPRIEDADES DA ARRAY
 
-console.log(acessarTarefa)
+let procurar = Object.values(tarefas.map((item) => item.reuniao))
+console.log(procurar)
+
+// let procuraPropriedade = tarefas.find((item) => item.reuniao)
+// console.log(procuraPropriedade) //PROCURA PROPRIEDADES E VALORES DA ARRAY

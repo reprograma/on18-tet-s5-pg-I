@@ -14,8 +14,8 @@ nº 1293.
 O retorno deverá ser template string*/
 
 
-function getInfo(info) {
-    console.log(`A ${info.nomeResidente} Lima mora em ${info.cidade}/${item.uf},no bairro ${info.bairro}, na ${item.rua}, com nº${item.numero}.`)
-}
+function colocarEndereco(nome, sobrenome, endereco) {
+        console.log(`A ${nome} ${sobrenome} mora em ${endereco.cidade} / ${endereco.uf}, no bairro do ${endereco.bairro}, na rua "${endereco.rua}" com n° ${endereco.numero}. `)
+    }
+colocarEndereco("Rachel", "Lizandra", endereco)
 
-getInfo(endereco);

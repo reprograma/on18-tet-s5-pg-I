@@ -13,10 +13,5 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
-const filtrarColaboradores = colaboradores.filter(colaboradora => {
-    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
-
-    return getDesenvolvedoras
-})
-
-console.log(filtrarColaboradores)
+let mensagemDevs = colaboradores.filter((item) => item.funcao.includes('Desenvolvedora'))
+console.log(mensagemDevs, "Convidamos vocês para o novo treinamento de DevOps!")

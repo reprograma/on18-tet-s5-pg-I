@@ -5,8 +5,7 @@ const professoras = ["Melissa", "Jéssica", "Bruna", "Emanuelle"]
 Item: "Ana"
 Em seguida, mostre no console.log()*/
 
-const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela", "Beatriz"]
+const adicionarNome = professoras.unshift('Ana')
 
-listaNomes.unshift("Ana");
-
-console.log(listaNomes)
+console.log(professoras)
+console.log(adicionarNome) // retorna o número de elementos da array

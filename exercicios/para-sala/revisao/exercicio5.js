@@ -4,11 +4,10 @@
     raca = golden
 */
 
-//objeto literal
 let animal = {
     porte: "grande",
     especie: "cachorro",
     raca: "golden"
 }
 
-console.log(animal)
+console.log(animal.especie)

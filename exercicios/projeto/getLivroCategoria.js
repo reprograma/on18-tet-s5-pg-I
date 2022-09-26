@@ -14,7 +14,7 @@ const getCategoria = () => {
         })
         console.table(getInfoLivros)
 
-        const inputCategoria = read.question(`Digite a categoria conforme a tabela acima: `);
+        const inputCategoria = read.question(`Digite a categoria conforme a tabela acima: `).toUpperCase();
 
         const confirmarCategoria = read.question(`Tem certeza? S/N `);
 
@@ -23,7 +23,9 @@ const getCategoria = () => {
 
             console.table(filtrarCategoriaEscolhida)
         }
-
+        if (confirmarCategoria === 'N'){
+            console.log("Volte ao menu principal.")
+        }
     }
 }
 
