@@ -1,5 +1,5 @@
 const read = require("readline-sync");
-const livros = require("./database");
+const livros = require("./database.json");
 
 const getLivroRecomendado = () => {
   const opcaoInicial = read
