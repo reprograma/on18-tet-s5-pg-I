@@ -3,7 +3,7 @@ const livros = [{
         categoria: "tecnologia",
         paginas: 200,
         leu: true,
-        recomenda: false
+        recomenda: true
     },
     {
         titulo: "Biografia Conceição Evaristo",

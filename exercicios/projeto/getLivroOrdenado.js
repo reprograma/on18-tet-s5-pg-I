@@ -12,5 +12,3 @@ const getLivroOrdenado = () => {
         console.table(livros)
     }
 }
-
-module.exports = getLivroOrdenado

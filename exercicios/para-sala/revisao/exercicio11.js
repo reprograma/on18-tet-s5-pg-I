@@ -61,4 +61,8 @@ for (let inicializador = 0; inicializador < frutas.length; inicializador++) {
 
 }
 
+<<<<<<< HEAD
 console.log(tratarFrutas)
+=======
+console.log(tratarFrutas)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
