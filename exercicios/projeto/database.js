@@ -12,6 +12,7 @@ const livros = [{
         leu: true,
         recomenda: true
     },
+    ,
     {
         titulo: "Crespusculo",
         categoria: "ficcao",
@@ -110,6 +111,7 @@ const livros = [{
         leu: false,
         recomenda: false
     }
+
 ]
 
 module.exports = livros
