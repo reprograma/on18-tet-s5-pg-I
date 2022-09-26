@@ -22,6 +22,20 @@ const notasAlunas = [{
     }
 ]
 
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio16.js
+
+let alunas = notasAlunas.map(aluna => {
+    return{
+        nome: aluna.nome,
+        notaFinal: (aluna.notas[0].nota * aluna.notas[0].peso)+(aluna.notas[1].nota * aluna.notas[1].peso),
+    }
+}
+);
+
+console.table(alunas);
+
+///nf=nn*np
+//=======
 const notasFinaisAlunas = notasAlunas.map((aluna) => {
 
     const arrNotas = aluna.notas;
@@ -57,3 +71,4 @@ const notasFinaisAlunas = notasAlunas.map((aluna) => {
 })
 
 console.log(notasFinaisAlunas)
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio16.js

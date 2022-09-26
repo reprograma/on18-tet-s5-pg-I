@@ -14,6 +14,13 @@ Lilian
 28
 ...*/
 
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio21.js
+for(x of usuarios){
+    console.log("%c[----------------------------------------]", 'color: #f89ee6');
+    console.log("[Nome:] "+x.nome, "  [Idade:] "+x.idade);
+    console.log("%c[.---------------------------------------]", 'color: #f89ee6');
+//=======
+}
 
 //for
 //fornecem acesso ao índice do array, não ao elemento real.
@@ -38,4 +45,5 @@ console.log('------------')
 você tentar acessar o indice do array, você teria que utilizar o método entries()*/
 for (usuario of usuarios) {
     console.log(usuario);
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio21.js
 }

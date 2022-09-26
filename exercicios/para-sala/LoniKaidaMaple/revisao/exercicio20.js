@@ -14,11 +14,15 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"*/
 
-function repetirNome(nome, repeticao) {
-    for (let i = 0; i < repeticao; i++) {
-        console.log(nome);
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio20.js
+let nome, repNum;
+nome="Panda🐼";
+repNum = 8;
+
+function repeatName(){
+    for(let x = 0; x<repNum; x++){
+        console.log(nome,x);
     }
-
 }
+repeatName();
 
-console.log(repetirNome("Jéssica", 4))

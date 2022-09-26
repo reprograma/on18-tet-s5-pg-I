@@ -1,0 +1,17 @@
+{
+  "name": "livraria-virtual",
+  "version": "1.0.0",
+  "description": "projeto destinado pra implementação de um algoritimo de buscas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "loni"
+  ],
+  "author": "Loni Maple/Panda",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

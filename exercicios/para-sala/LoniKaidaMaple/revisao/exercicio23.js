@@ -28,4 +28,9 @@ https://github.com/braziljs/eloquente-javascript
 for (livro in livros) {
     console.log(`${livros[livro]["titulo"]} \n ${livros[livro]["quemEscreveu"]} \n ${livros[livro]["link"]}
     `)
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio23.js
+    console.log("%c[----------------------]", 'color: #f89ee6');
 }
+//=======
+//}
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio23.js

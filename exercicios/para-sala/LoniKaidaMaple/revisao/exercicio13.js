@@ -13,6 +13,13 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
+//<<<<<<< HEAD:exercicios/para-sala/Loni Kaida Maple/revisao/exercicio13.js
+const filterBy = colaboradores.filter((colaborador) => colaborador.funcao=="Desenvolvedora");
+for(a of filterBy){
+    console.log("%c Colaboradores: "+a.PrimeiroNome, 'color: #f89ee6');
+}
+
+//=======
 const filtrarColaboradores = colaboradores.filter(colaboradora => {
     const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
 
@@ -20,3 +27,4 @@ const filtrarColaboradores = colaboradores.filter(colaboradora => {
 })
 
 console.log(filtrarColaboradores)
+//>>>>>>> 764dc6af21ddba7be5add8c1d7ab8e45e0fa8913:exercicios/para-sala/revisao/exercicio13.js
