@@ -12,3 +12,11 @@ const pessoas = [
 //   { nome: "Mell", area: "TI", profissao: "dev" },
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
+
+const getProfissionalTI = pessoas.filter((pessoa) => {
+    const isTI = pessoa.area == "TI";
+
+    return isTI
+})
+
+console.log(getProfissionalTI)

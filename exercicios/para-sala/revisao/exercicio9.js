@@ -9,3 +9,6 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela", "Beatriz"]
 const removerNomeNoFinal = listaNomes.pop("Beatriz");
 
 console.log(removerNomeNoFinal);
+listaNomes.pop();
+
+console.log(listaNomes)

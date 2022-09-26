@@ -7,3 +7,7 @@ na lista criada.  */
 const compras = ['ovos', 'feijão', 'macarrão', 'abobora', 'cenoura'];
 
 console.log(compras.length);
+let mercado = ["Ovos", "Feijão", "Macarrão", "Abóbora", "Cenoura"];
+
+console.log(mercado.length)
+    // verifica o tamanho da array

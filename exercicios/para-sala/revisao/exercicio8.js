@@ -8,5 +8,6 @@ Em seguida, mostre no console.log
 const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"];
 
 const adicionarNomeNoFinal = listaNomes.push("Beatriz");
+listaNomes.push("Beatriz");
 
 console.log(listaNomes);
