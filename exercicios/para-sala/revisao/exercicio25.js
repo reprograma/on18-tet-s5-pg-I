@@ -1,9 +1,13 @@
 //Faça uma função com dois parâmetros que retorne a soma deles.
 
-function calcularValores(valor1, valor2) {
 
-    let resultadoSoma = valor1 + valor2
-    return resultadoSoma
+function soma(a,b){
+    let soma1 = a + b;
+    return soma1
 }
 
-console.log(calcularValores(5, 15));
+
+
+
+ const result = soma(9, 6)
+ console.log(result)

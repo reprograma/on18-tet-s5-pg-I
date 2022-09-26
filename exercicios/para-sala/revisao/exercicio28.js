@@ -9,6 +9,15 @@ Se a condição for verdadeira, retornar "O maior número entre 5 e 10 é 10"
 Se for falsa, retornar que a segundo parametro é maior que o primeiro. */
 
 
+/* function comparNumero(numero1, numero2) {
+    if (numero1 > numero2) {
+        console.log(`O ${numero1} é maior que o ${numero2}`);
+    } else {
+        console.log(`O ${numero2} é maior que o numero ${numero1}`);
+    }
+}
+comparacao(66, 180); */
+
 function compararNumero(numero1, numero2) {
     if (numero1 > numero2) {
         console.log(`O ${numero1} é maior que o ${numero2}`);
@@ -18,4 +27,5 @@ function compararNumero(numero1, numero2) {
         console.log(`O ${numero2} é maior que o numero ${numero1}`);
     }
 }
-compararNumero(66, 66);
+compararNumero(66, 66)
+
