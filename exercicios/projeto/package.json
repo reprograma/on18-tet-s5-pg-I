@@ -1,14 +1,14 @@
 {
     "name": "livraria-virtual-reprograma",
     "version": "1.0.0",
-    "description": "Criação de um sistema com os seguintes algoritmos de busca",
+    "description": "Projeto destinado para implementação de algoritmo de buscas",
     "main": "index.js",
     "scripts": {
         "start": "node app.js"
 
     },
     "keywords": [],
-    "author": "",
+    "author": "Juliana Lopes das Virgens",
     "license": "ISC",
     "dependencies": {
         "readline-sync": "^1.4.10"

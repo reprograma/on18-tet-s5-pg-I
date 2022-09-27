@@ -1,15 +1,19 @@
 const read = require('readline-sync');
 const getLivroCategoria = require('./getLivroCategoria');
 const getLivroOrdenado = require('./getLivroOrdenado');
+const getLivroRecomendado = require('./getLivroRecomendado');
+const getLivroNaoLido = require('./getLivroNaoLido')
 
 const menuOpcoes = read.question(`
-Bem vinda a Livraria Virtual da Reprograma! :)
+Seja bem-vindo a Livraria Reprograma! Fique a vontade para navegar e escolher o seu livro <3
 
-Digite o numero da opcao que voce quer:
+Digite a opcao desejada:
 
 1 - CATEGORIA: Buscar livros por categorias;
-2 - ORDENAR: Buscar livros de forma ordenada; 
-3 - SAIR 
+2 - ORDENAR: Buscar livros ordenados de forma crescente por quantidade de paginas; 
+3 - ORDENAR: Buscar livros recomendados por nossos leitores;
+4 - ORDENAR: Buscar livros que ainda nao foram lidos, mas esperam por voce
+5 - SAIR 
 `);
 
 
@@ -20,7 +24,14 @@ switch (menuOpcoes) {
     case '2':
         getLivroOrdenado()
         break;
+    case '3':
+        getLivroRecomendado()
+        break;
+    case '4':
+        getLivroNaoLido()
+        break;
     default:
         console.log("SAIR")
+        console.log("Agradecemos a sua visita, estaremos ansiosas pelo seu retorno!")
         break;
 }
