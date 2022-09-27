@@ -1,19 +1,13 @@
-{
-    "name": "livraria-virtual-reprograma",
-    "version": "1.0.0",
-    "description": "Criação de um sistema com os seguintes algoritmos de busca",
-    "main": "index.js",
-    "scripts": {
-        "start": "node app.js"
+const read = require('readline-sync');
+const livros = require('./database');
 
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "readline-sync": "^1.4.10"
-    }
+
+const getLivroOrdenado = () => {
+    //implementar a lógica COM AS PERGUNTA
 }
+
+
+module.exports = getLivroOrdenado
 
 
 const read = require('readline-sync');
