@@ -3,7 +3,7 @@ const livros = require('./database');
 
 const getCategoria = () => {
 
-    const opcaoInicial = read.question(`Você deseja procurar por categorias? S/N `).toUpperCase();
+    const opcaoInicial = read.question(`Voce deseja procurar por categorias? S/N `).toUpperCase();
 
     if (opcaoInicial === 'S') {
         const getInfoLivros = livros.map((livro) => {
