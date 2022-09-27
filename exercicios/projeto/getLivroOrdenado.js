@@ -15,7 +15,7 @@ const getLivroOrdenado = () => {
             }
         });
 
-        console.log(livros);
+        console.table(livros);
         const inputTitulo = read.question(`Digite o titulo do livro desejado conforme a tabela acima: `).toUpperCase();
 
         const confirmarTitulo = read.question(`Tem certeza? S/N `).toUpperCase();
