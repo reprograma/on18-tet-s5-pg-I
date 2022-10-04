@@ -11,7 +11,7 @@ const getLivroRecomendado = () => {
                 titulo: livro.titulo,
                 recomenda: livro.recomenda.valueOf(true) 
             }
-        })
+    })
         console.table(getInfoLivros)
     }
 
@@ -33,9 +33,6 @@ const getLivroRecomendado = () => {
         console.table(getInfoLivros)
     } 
 
-
 }
-
-
 
 module.exports = getLivroRecomendado

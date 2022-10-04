@@ -1,0 +1,14 @@
+{
+  "name": "livraria-virtual-reprograma",
+  "version": "1.0.0",
+  "description": "Criação de um sistemas com os seguintes algoritmos de buscas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "larissa-araujo",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
