@@ -21,4 +21,4 @@ function repetirNome(nome, repeticao) {
 
 }
 
-console.log(repetirNome("Jéssica", 4))
+console.log(repetirNome("Ana Paula", 4))
