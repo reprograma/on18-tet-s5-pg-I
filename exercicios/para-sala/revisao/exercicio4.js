@@ -7,7 +7,7 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  */
 
 
-let nome = "Letíciab";
+let nome = "Letícia";
 
 console.log(nome[0]);
 console.log(nome.charAt(0));
