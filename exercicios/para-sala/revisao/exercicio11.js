@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+// 2) Retornar frutas com somente a primeira letra maiúscula
+const frutas = ["maçã", "banana", "Pera", "Melancia", "pêsSSEgO", "jAcA"];
+
+
+
+// const frutas1 = frutas.map( frutas => frutas.toUpperCase());
+// console.log(frutas1);
+
+
+
+function retornarFrutasComPrimeiraLetraMaiuscula(listaDeFrutas, posicaoInicial, posicaoFinal) {
+    let buscaFrutas = listaDeFrutas.map((fruta) => fruta[posicaoInicial].toUpperCase() + fruta.slice(posicaoFinal).toLowerCase())
+    console.log(buscaFrutas);
+}
+retornarFrutasComPrimeiraLetraMaiuscula(frutas, 0, 1);
+=======
 // 2) Retornar frutas tratadas com somente a primeira letra maiúscula e as demais minúscula
 const frutas = ["maçã", "banana", "Pera", "Melancia", "pêsSSEgO", "jAcA"];
 
@@ -62,3 +79,4 @@ for (let inicializador = 0; inicializador < frutas.length; inicializador++) {
 }
 
 console.log(tratarFrutas)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

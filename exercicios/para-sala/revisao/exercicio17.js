@@ -13,6 +13,22 @@ const pessoas = [
 //   { nome: "Madalena", area: "TI", profissao: "infra" }
 // ];
 
+<<<<<<< HEAD
+
+// const buscarProfissionaisTI = pessoas.filter (function(profissionaisTI){
+// return profissionaisTI.area == 'TI'
+// })
+// console.log(buscarProfissionaisTI)
+
+function areaTi(ti){
+    const buscarProfissionaisTI = area.filter (function(profissionaisTI){
+        return profissionaisTI.area == 'TI'
+        })
+        console.table(buscarProfissionaisTI)
+        
+}
+areaTi(pessoas)
+=======
 const getProfissionalTI = pessoas.filter((pessoa) => {
     const isTI = pessoa.area == "TI";
 
@@ -20,3 +36,4 @@ const getProfissionalTI = pessoas.filter((pessoa) => {
 })
 
 console.log(getProfissionalTI)
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a

@@ -12,6 +12,19 @@ const endereco = {
 A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 O retorno deverá ser template string*/
+<<<<<<< HEAD
+function retornarEndereço(nome, sobrenome, cidade, uf, bairro, rua, numero) {
+    const endereco = {
+        rua: rua,
+        numero: numero,
+        bairro: bairro,
+        cidade: cidade,
+        uf: uf
+    };
+    console.log(`A aluna ${nome} ${sobrenome} mora em ${cidade}/${uf}, no bairro ${bairro}, na ${rua} com nº ${numero}.`)
+}
+retornarEndereço("Pricila", "silva", "São Paulo", "SP", "Centro", "Rua dos Pinheiros", "1293")
+=======
 
 
 function getInfo(info) {
@@ -19,3 +32,4 @@ function getInfo(info) {
 }
 
 getInfo(endereco);
+>>>>>>> 7e8baed7bdd07ab6eaf9b7860aee83a52702a75a
