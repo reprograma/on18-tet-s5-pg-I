@@ -11,7 +11,15 @@ const livros = [{
         paginas: 360,
         leu: true,
         recomenda: true
+    },
+    {
+        titulo: "1984",
+        categoria: "Ficção politica",
+        paginas: "416",
+        leu: "true",
+        recomenda: "true"
     }
+        
 ]
 
 module.exports = livros

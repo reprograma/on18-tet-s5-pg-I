@@ -5,10 +5,21 @@
 */
 
 //objeto literal
-let animal = {
-    porte: "grande",
-    especie: "cachorro",
-    raca: "golden"
+//let animal = {
+    //porte: "grande",
+    //especie: "cachorro",
+    //raca: "golden"
+//}
+
+//console.log(animal)
+
+let endereço = {
+    Rua: "Rua travessa",
+    bairro: "Jardim dos estados",
+    numero: "488",
+    cidade: "São Paulo",
+    Estado: "São Paulo",
+    Pais: "Brasil"
 }
 
-console.log(animal)
+console.log(endereço)

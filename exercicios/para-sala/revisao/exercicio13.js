@@ -4,6 +4,24 @@ ____________________________
 Imagine que queremos enviar uma mensagem apenas aos colaboradores que são Desenvolvedoras.
 Podemos usar .filter () para retornar apenas os usuários que se encaixam na função correta.*/
 
+//const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desenvolvedora' },
+    //{ PrimeiroNome: 'Chloe', ultimoNome: 'Alnaji', funcao: 'Desenvolvedora' },
+    //{ PrimeiroNome: 'Jonathan', ultimoNome: 'Alves', funcao: 'Publicitário' },
+    //{ PrimeiroNome: 'Micaela', ultimoNome: 'Herman', funcao: 'Lead Instructor' },
+    //{ PrimeiroNome: 'Robert', ultimoNome: 'Santos', funcao: 'Desenvolvedora' },
+    //{ PrimeiroNome: 'Wes', ultimoNome: 'Correia', funcao: 'Instrutor' },
+  //  { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
+//];
+
+//const filtrarColaboradores = colaboradores.filter(colaboradora => {
+    //const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+
+    //return getDesenvolvedoras
+//})
+
+//console.log(filtrarColaboradores)
+
+
 const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Chloe', ultimoNome: 'Alnaji', funcao: 'Desenvolvedora' },
     { PrimeiroNome: 'Jonathan', ultimoNome: 'Alves', funcao: 'Publicitário' },
@@ -13,10 +31,10 @@ const colaboradores = [{ PrimeiroNome: 'Ana', ultimoNo: 'Bouley', funcao: 'Desen
     { PrimeiroNome: 'Hanna', ultimoNome: 'Montana', funcao: 'Diretora' }
 ];
 
-const filtrarColaboradores = colaboradores.filter(colaboradora => {
-    const filtrarDesenvolvedora = colaboradora.funcao === 'Desenvolvedora';
+const listaFiltrada = colaboradores.filter(coloboradora => {
+    const filtrarDesenvolvedora = colaboradora.funcao === 'Densenvolvedora';
 
     return getDesenvolvedoras
 })
 
-console.log(filtrarColaboradores)
+console.log(listaFiltrada)

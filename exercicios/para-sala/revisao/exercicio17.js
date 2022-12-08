@@ -20,3 +20,10 @@ const getProfissionalTI = pessoas.filter((pessoa) => {
 })
 
 console.log(getProfissionalTI)
+
+const getProfissionalCiencia = pessoas.filter((pessoa => {
+    const pessoasCiencia = pessoa.area == "ciência";
+    return pessoasCiencia
+}))
+
+console.log(getProfissionalCiencia)
