@@ -20,3 +20,13 @@ const modificarValorProduto = produtos.map((produto) => {
 })
 
 console.log(modificarValorProduto)
+
+const retornarNovosValores = produtos.map((produto) => {
+    return {
+        Cor: produto.cor,
+        tamanho: produto.tamanho,
+        categoria: produto.categoria
+    }
+})
+
+console.log(retornarNovosValores)

@@ -5,6 +5,8 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"]
 Em seguida, mostre no console.log
 */
 
-listaNomes.push("Beatriz");
+listaNomes.push("vitória");
+
+// push = insere no final 
 
 console.log(listaNomes);

@@ -18,4 +18,4 @@ let tipoArrays = ["String", 12,
 let outrosTipos = [undefined, null, NaN];
 
 
-console.log(typeof(tipoBooleano))
+console.log(typeof(outrosTipos))

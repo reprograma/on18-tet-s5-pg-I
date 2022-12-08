@@ -17,3 +17,8 @@ const tarefas = [{
 let acessarTarefa = tarefas[0].reuniao
 
 console.log(acessarTarefa)
+
+
+let acessarItem = tarefas[0].afazeres
+
+console.log(acessarItem)
