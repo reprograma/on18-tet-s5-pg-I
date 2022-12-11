@@ -15,3 +15,26 @@ const livros = [{
 ]
 
 module.exports = livros
+
+
+{
+    titulo: "Eleonor & Park",
+    categoria: "romance",
+    paginas: 287,
+    leu: true,
+    recomenda: true
+},
+{
+    titulo: "A essencial arte de parar",
+    categoria: "autoajuda",
+    paginas: 96,
+    leu: true,
+    recomenda: false
+},
+{
+    titulo: "Doidas e Santas",
+    categoria: "romance",
+    paginas: 231,
+    leu: true,
+    recomenda: false
+}

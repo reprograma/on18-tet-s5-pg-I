@@ -4,7 +4,7 @@
     "description": "Criação de um sistema com os seguintes algoritmos de busca",
     "main": "index.js",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js"  
 
     },
     "keywords": [],
